@@ -1,0 +1,234 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_ABSTRACT",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_ABSTRACT_MATS",
+      "CSC_ABSTRACT_TOOL",
+      "CSC_ABSTRACT_ARMOR",
+      "CSC_ABSTRACT_WEAPON",
+      "CSC_ABSTRACT_AMMO",
+      "CSC_ABSTRACT_MAGS",
+      "CSC_ABSTRACT_OTHER"
+    ]
+  },
+  {
+    "abstract": "abstract_component",
+    "name": { "str": "_abstract_component_" },
+    "type": "AMMO",
+    "category": "spare_parts",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "monolith" ],
+    "symbol": "?",
+    "color": "dark_gray",
+    "ammo_type": "components"
+  }, {
+    "id": "abstract_trash",
+    "name": { "str": "abstract trash" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "A combination of otherwise useless trash abstracted into a superpositive state, this spark of potential can bind other ideas together."
+  }, {
+    "id": "abstract_scrap",
+    "name": { "str": "abstract scrap" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "A combination of scrap materials abstracted into a superpositive state, this bundle of ideas adds weight to less tangible concepts."
+  }, {
+    "id": "abstract_part",
+    "name": { "str": "abstract part" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "The idea of a crafting component, so vague that it could be nearly anything."
+  }, {
+    "id": "abstract_chunk",
+    "name": { "str": "abstract chunk" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "The concept of a heavy object about the size of a human fist."
+  }, {
+    "id": "abstract_rod",
+    "name": { "str": "abstract rod" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "The concept of rigid object about four feet long and two inches thick."
+  },  {
+    "id": "abstract_pole",
+    "name": { "str": "abstract pole" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "The concept of a long cylinder about ten feet long and two inches thick."
+  }, {
+    "id": "abstract_cord",
+    "name": { "str": "abstract cord" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "The concept of a thin rope, flexible and about three feet long."
+  },
+
+  {
+    "id": "raw_thought_t1",
+    "name": { "str": "spark of potential" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "Spark of Potential"
+  }, {
+    "id": "raw_thought_t2",
+    "name": { "str": "spark of creativity" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "Spark of Creativity"
+  }, {
+    "id": "raw_thought_t3",
+    "name": { "str": "spark of inspiration" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "Spark of Inspiration"
+  },
+
+  {
+    "id": "abstract_utility",
+    "name": { "str": "essence of utility" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "The concept of utility."
+  }, {
+    "id": "abstract_versatility",
+    "name": { "str": "essence of versatility" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "The concept versatility."
+  }, {
+    "id": "abstract_durability",
+    "name": { "str": "essence of durability" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "The concept of durability."
+  },
+
+  {
+    "id": "abstract_cutting",
+    "name": { "str": "threat of laceration" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "Slashing, cutting, and chopping; a thin edge intersects the whole, dividing it into parts."
+  }, {
+    "id": "abstract_bashing",
+    "name": { "str": "threat of demolition" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "Pounding, hammering, and pulverizing; a blunt instrument strikes the whole, shattering it to pieces."
+  }, {
+    "id": "abstract_piercing",
+    "name": { "str": "threat of perforation" },
+    "copy-from": "abstract_component", "type": "AMMO",
+    "description": "Piercing, stabbing, and impaling; a sharp point penetrates the whole, damaging internal structures."
+  },
+
+  { "type": "recipe", "abstract": "abstract_recipe", "skill_used": "abstraction", "time": "60 s", "activity_level": "NO_EXERCISE", "category": "CC_OTHER", "subcategory": "CSC_OTHER_MATERIALS", "reversible": false, "autolearn": true },
+
+  { "abstract": "abstract_material",    "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_MATS", "type": "recipe", "copy-from": "abstract_recipe" },
+  { "abstract": "abstract_material_t0", "difficulty": 0, "type": "recipe", "copy-from": "abstract_material" },
+  { "abstract": "abstract_material_t1", "difficulty": 1, "type": "recipe", "copy-from": "abstract_material" },
+  { "abstract": "abstract_material_t2", "difficulty": 2, "type": "recipe", "copy-from": "abstract_material" },
+  { "abstract": "abstract_material_t3", "difficulty": 3, "type": "recipe", "copy-from": "abstract_material" },
+
+  { "abstract": "abstract_refinement_t0", "difficulty": 0, "time": "15 m", "type": "recipe", "copy-from": "abstract_material" },
+  { "abstract": "abstract_refinement_t1", "difficulty": 1, "time": "60 m", "type": "recipe", "copy-from": "abstract_material" },
+  { "abstract": "abstract_refinement_t2", "difficulty": 2, "time":  "8 h", "type": "recipe", "copy-from": "abstract_material" },
+
+  { "result": "raw_thought_t1", "components": [ [ ["abstract_trash", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_refinement_t0" },
+  { "result": "raw_thought_t2", "components": [ [ ["raw_thought_t1", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_refinement_t1" },
+  { "result": "raw_thought_t3", "components": [ [ ["raw_thought_t2", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_refinement_t2" },
+
+  { "result": "abstract_utility", "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_material_t2",
+    "components": [ [ ["raw_thought_t1", 1] ],
+      [ ["screwdriver", 1], ["crowbar", 1], ["wrench_small", 1], ["wrench", 1],
+        ["reciprocating_saw", 1], ["jackhammer", 1], ["elec_jackhammer", 1], ["hand_drill", 1], ["cordless_drill", 1] ] ] },
+
+  { "result": "abstract_cutting", "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_material_t3",
+    "components": [ [ ["raw_thought_t1", 1] ],
+      [ ["ax", 1], ["hatchet", 1], ["knife_butcher", 1], ["knife_chef", 1],
+        ["knife_carving", 1], ["knife_meat_cleaver", 1], ["machete", 1 ],
+        ["knife_vegetable_cleaver", 1 ],
+        ["reciprocating_saw", 1] ] ] },
+
+  { "result": "abstract_piercing", "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_material_t3",
+    "components": [ [ ["raw_thought_t1", 1] ],
+      [ ["spear_wood", 1], ["spear_spike", 1], ["spear_knife", 1],
+        ["spear_pipe", 1], ["spear_stone", 1], ["rapier", 1],
+        ["hand_drill", 1], ["cordless_drill", 1] ] ] },
+
+  { "result": "abstract_bashing", "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_material_t3",
+    "components": [ [ ["raw_thought_t1", 1] ],
+      [ ["bat", 1], ["baton", 1], ["cudgel", 1], ["hammer", 1],  ["mace", 1],
+        ["hammer_sledge", 1], ["hammer_sledge_short", 1], ["mace_simple", 1],
+        ["jackhammer", 1], ["elec_jackhammer", 1] ] ] },
+
+
+  { "result": "abstract_trash", "type": "recipe", "copy-from": "abstract_material_t0",
+    "components": [
+      [ [ "paper",    1 ], [ "cardboard",    1 ], [ "leaves", 1] ],
+      [ [ "splinter", 1 ], [ "straw_pile",   1 ], [ "twig",   1] ],
+      [ [ "scrap",    1 ], [ "glass_shard",  1 ], [ "pebble", 1] ],
+      [ [ "withered", 1 ], [ "scrap_cotton", 3 ], [ "cotton_patchwork", 1 ] ]
+    ] },
+
+  { "result": "abstract_chunk", "type": "recipe", "copy-from": "abstract_material_t1",
+    "components": [
+      [ [ "raw_thought_t1", 3 ] ],
+      [ [ "steel_lump",     1 ], [ "steel_chunk",    3 ] ],
+      [ [ "rock_large",     1 ], [ "rock",           3 ] ]
+    ] },
+
+  { "result": "abstract_rod", "type": "recipe", "copy-from": "abstract_material_t1",
+    "components": [
+      [ [ "2x4", 1 ], ["stick", 1] ],
+      [ [ "pipe", 1 ], ["wire", 3] ],
+      [ [ "abstract_trash", 5 ] ]
+    ] },
+
+  { "result": "abstract_pole", "type": "recipe", "copy-from": "abstract_material_t2",
+    "components": [
+      [ [ "long_pole", 1 ], ["stick_long", 1], ["plank_long", 1], ["abstract_rod", 2] ],
+      [ [ "abstract_trash", 5 ], [ "abstract_scrap", 1] ]
+    ] },
+
+  { "result": "abstract_cord", "type": "recipe", "copy-from": "abstract_material_t2",
+    "components": [
+      [ [ "string_36", 1 ], ["cordage_36", 1], ["string_6", 6], ["cordage_6", 6], ["thread", 300], ["plant_fibre", 300], ["sinew", 300] ],
+      [ [ "string_36", 1 ], ["cordage_36", 1], ["string_6", 6], ["cordage_6", 6], ["thread", 300], ["plant_fibre", 300], ["sinew", 300] ],
+      [ [ "abstract_trash", 5 ], [ "abstract_scrap", 1] ]
+    ] },
+
+  { "abstract": "abstract_tool", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_TOOL", "type": "recipe", "copy-from": "abstract_recipe" },
+  { "abstract": "abstract_tool_t1", "difficulty": 1, "type": "recipe", "copy-from": "abstract_tool" },
+  { "abstract": "abstract_tool_t2", "difficulty": 2, "type": "recipe", "copy-from": "abstract_tool" },
+  { "abstract": "abstract_tool_t3", "difficulty": 3, "type": "recipe", "copy-from": "abstract_tool" },
+
+  { "result": "long_pole",     "components": [ [ ["abstract_pole", 1 ] ], [ ["raw_thought_t1", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_material_t1" },
+
+  { "result": "screwdriver",   "components": [ [ ["abstract_trash", 5 ] ], [ ["abstract_utility", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t1" },
+  { "result": "hammer",        "components": [ [ ["abstract_chunk", 1 ] ], [ ["abstract_utility", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t1" },
+  { "result": "crowbar",       "components": [ [ ["abstract_rod",   1 ] ], [ ["abstract_utility", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t1" },
+
+  { "result": "wrench_small",  "components": [ [ ["abstract_trash", 5 ] ], [ ["abstract_utility", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t1" },
+  { "result": "wrench",        "components": [ [ ["abstract_rod",   1 ] ], [ ["abstract_utility", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t2" },
+
+  { "result": "ax",            "components": [ [ ["abstract_rod",   1 ] ], [ ["abstract_utility", 1] ], [ ["abstract_cutting",  1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t2" },
+  { "result": "pickaxe",       "components": [ [ ["abstract_rod",   1 ] ], [ ["abstract_utility", 1] ], [ ["abstract_piercing", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t2" },
+  { "result": "hammer_sledge", "components": [ [ ["abstract_rod",   1 ] ], [ ["abstract_utility", 1] ], [ ["abstract_bashing",  1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t2" },
+
+
+
+  { "result": "hacksaw",       "components": [ [ ["abstract_trash", 10] ], [ ["abstract_cutting", 1] ], [ ["abstract_utility", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t2" },
+  { "result": "hatchet",       "components": [ [ ["hammer",  1] ], [ ["abstract_cutting", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t2" },
+  { "result": "heavy_crowbar", "components": [ [ ["crowbar", 1] ], [ ["abstract_bashing", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t2" },
+
+  { "abstract": "abstract_armor", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_ARMOR", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 3 },
+  { "result": "delta_hazard_suit", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_armor" },
+  { "result": "delta_hazard_mask", "components": [ [ [ "abstract_trash",  60 ], ["abstract_part",  6 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_armor" },
+
+  { "abstract": "abstract_weapon", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_WEAPON", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 3 },
+  { "result": "mossberg_500", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
+  { "result": "modular_m4_carbine", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
+
+  { "result": "spear_steel", "components": [ [ [ "abstract_pole", 1 ] ], [ ["abstract_piercing", 1 ] ], [ ["raw_thought_t2", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
+
+  { "abstract": "abstract_magazine", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_MAGS", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 2 },
+  { "result": "stanag10", "components": [ [ [ "abstract_trash", 10 ], ["abstract_part", 1 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
+  { "result": "stanag30", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 3 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
+
+  { "abstract": "abstract_ammo", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_AMMO", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 2 },
+  { "result": "shot_00", "charges": 3, "components": [ [ ["abstract_trash", 10], [ "abstract_part", 1 ] ] ], "type": "recipe", "id_suffix": "abstract", "copy-from": "abstract_ammo" },
+  { "result": "556", "charges": 5, "components": [ [ ["abstract_trash", 10], [ "abstract_part", 1 ] ] ], "type": "recipe", "id_suffix": "abstract", "copy-from": "abstract_ammo" }
+]
