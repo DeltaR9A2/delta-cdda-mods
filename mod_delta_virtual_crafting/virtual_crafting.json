@@ -1,0 +1,92 @@
+[
+  {
+    "type": "skill",
+    "id": "conversion",
+    "name": { "str": "conversion" },
+    "description": "Your skill in converting physical matter into virtual matter and back.",
+    "display_category": "display_crafting",
+    "sort_rank": 17600
+  },
+  {
+    "type": "recipe_category",
+    "id": "CC_VIRTUAL",
+    "recipe_subcategories": [
+      "CSC_VIRTUAL_VIRT_MATS",
+      "CSC_VIRTUAL_REAL_MATS"
+    ]
+  },
+  {
+    "abstract": "virtual_component",
+    "name": { "str": "_abstract_component_" },
+    "type": "AMMO",
+    "category": "spare_parts",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "monolith" ],
+    "symbol": "?",
+    "color": "dark_gray",
+    "ammo_type": "components"
+  }, {
+    "id": "v_item_block_of_wood",
+    "name": { "str": "v.item.block_of_wood" },
+    "copy-from": "virtual_component", "type": "AMMO",
+    "description": "A cube of solid wood, exactly a half meter in each dimension. Somehow it is nearly weightless while carrying it."
+  }, {
+    "id": "v_item_plank",
+    "name": { "str": "v.item.plank" },
+    "copy-from": "virtual_component", "type": "AMMO",
+    "description": "A pixelated wooden plank... or is it several? It's hard to tell, but it can be used for crafting virtual items regardless."
+  }, {
+    "id": "v_item_stick",
+    "name": { "str": "v.item.stick" },
+    "copy-from": "virtual_component", "type": "AMMO",
+    "description": "A pixelated wooden stick. It can be used for crafting virtual items."
+  }, {
+    "id": "v_tool_wooden_pickaxe",
+    "name": { "str": "v.tool.wooden_pickaxe" },
+    "copy-from": "pickaxe", "type": "TOOL",
+    "description": "A pixelated pickaxe with a head made out of wood. Somehow it works as well as a real pickaxe."
+  },
+  { "type": "recipe", "abstract": "virtual_recipe", "skill_used": "conversion", "time": "5 s", "activity_level": "NO_EXERCISE", "category": "CC_OTHER", "subcategory": "CSC_OTHER_MATERIALS", "reversible": false, "autolearn": true },
+
+  { "abstract": "virtual_material",    "category": "CC_VIRTUAL", "subcategory": "CSC_VIRTUAL_VIRT_MATS", "type": "recipe", "copy-from": "virtual_recipe" },
+  { "abstract": "virtual_material_t0", "difficulty": 0, "type": "recipe", "copy-from": "virtual_material" },
+
+  { "result": "v_item_block_of_wood", "id_suffix": "virtual", "type": "recipe", "copy-from": "virtual_material_t0",
+    "components": [ 
+          [ ["splinter", 25], ["2x4", 5], ["stick", 5] ]
+        ]
+  },
+
+  { "result": "v_item_plank", "result_mult": 4, "id_suffix": "virtual", "type": "recipe", "copy-from": "virtual_material_t0",
+    "components": [
+          [ ["v_item_block_of_wood", 1] ]
+        ]
+  },
+  { "result": "v_item_stick", "result_mult": 4, "id_suffix": "virtual", "type": "recipe", "copy-from": "virtual_material_t0",
+    "components": [
+          [ ["v_item_plank", 2] ]
+        ]
+  },
+  { "result": "v_tool_wooden_pickaxe", "id_suffix": "virtual", "type": "recipe", "copy-from": "virtual_material_t0",
+    "components": [
+          [ ["v_item_plank", 3] ], [ ["v_item_stick", 2] ]
+        ]
+  },
+  
+  { "abstract": "v_to_real",    "category": "CC_VIRTUAL", "subcategory": "CSC_VIRTUAL_REAL_MATS", "type": "recipe", "copy-from": "virtual_recipe" },
+  { "abstract": "v_to_real_t0", "difficulty": 0, "type": "recipe", "copy-from": "v_to_real" },
+
+  { "result": "pickaxe", "id_suffix": "virtual", "type": "recipe", "copy-from": "v_to_real_t0",
+    "components": [ 
+          [ ["v_tool_wooden_pickaxe", 1] ]
+        ]
+  },    
+  { "result": "splinter", "result_mult": 25, "id_suffix": "virtual", "type": "recipe", "copy-from": "v_to_real_t0",
+    "components": [ 
+          [ ["v_item_block_of_wood", 1] ]
+        ]
+  }        
+]
