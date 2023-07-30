@@ -2,8 +2,18 @@
 
 import os
 import json
+import argparse
 
-JSON_SEARCH_ROOT = os.path.abspath("./data/json");
+parser = \
+argparse.ArgumentParser(
+  prog = r"no_pair_of",
+  description = r"""Generates the no_pair_of mod for CDDA, removing 'pair of'
+                    from the beginning of item names like 'pair of scissors'.""" )
+
+parser.add_argument(r"data_dir")
+args = parser.parse_args()
+
+JSON_SEARCH_ROOT = os.path.abspath(args.data_dir)
 
 JSON_FILENAMES = []
 
@@ -39,7 +49,7 @@ for jfn in JSON_FILENAMES:
       continue
 
     if type( json_data ) is dict:
-      if check_record(x):
+      if check_record( json_data ):
         RECORDS_TO_RENAME.append( json_data )
     elif type( json_data ) is list:
       for x in json_data:
