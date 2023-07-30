@@ -1,0 +1,5087 @@
+[
+  {
+    "id": "glass_tinted",
+    "copy-from": "glass_tinted",
+    "type": "GENERIC",
+    "name": {
+      "str": "tinted glass lenses",
+      "str_pl": "tinted glass lenses"
+    }
+  },
+  {
+    "id": "ear_plugs",
+    "copy-from": "ear_plugs",
+    "type": "ARMOR",
+    "name": {
+      "str": "ear plugs",
+      "str_pl": "ear plugs"
+    }
+  },
+  {
+    "id": "thermal_socks",
+    "copy-from": "thermal_socks",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "thermal electric socks",
+      "str_pl": "thermal electric socks"
+    }
+  },
+  {
+    "id": "thermal_socks_on",
+    "copy-from": "thermal_socks_on",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "thermal electric socks (on)",
+      "str_pl": "thermal electric socks (on)"
+    }
+  },
+  {
+    "id": "thermal_gloves",
+    "copy-from": "thermal_gloves",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "thermal electric gloves",
+      "str_pl": "thermal electric gloves"
+    }
+  },
+  {
+    "id": "thermal_gloves_on",
+    "copy-from": "thermal_gloves_on",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "thermal electric gloves (on)",
+      "str_pl": "thermal electric gloves (on)"
+    }
+  },
+  {
+    "id": "binoculars",
+    "copy-from": "binoculars",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "binoculars",
+      "str_pl": "binoculars"
+    }
+  },
+  {
+    "id": "ar_glasses_basic",
+    "copy-from": "ar_glasses_basic",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "basic AR glasses",
+      "str_pl": "basic AR glasses"
+    }
+  },
+  {
+    "id": "ar_glasses_advanced",
+    "copy-from": "ar_glasses_advanced",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "advanced AR glasses",
+      "str_pl": "camping AR glasses"
+    }
+  },
+  {
+    "id": "goggles_nv",
+    "copy-from": "goggles_nv",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "light amp goggles",
+      "str_pl": "light amp goggles"
+    }
+  },
+  {
+    "id": "goggles_nv_on",
+    "copy-from": "goggles_nv_on",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "light amp goggles (on)",
+      "str_pl": "light amp goggles (on)"
+    }
+  },
+  {
+    "id": "goggles_ir",
+    "copy-from": "goggles_ir",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "infrared goggles",
+      "str_pl": "infrared goggles"
+    }
+  },
+  {
+    "id": "goggles_ir_on",
+    "copy-from": "goggles_ir_on",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "infrared goggles (on)",
+      "str_pl": "infrared goggles (on)"
+    }
+  },
+  {
+    "id": "attached_ear_plugs_on",
+    "copy-from": "attached_ear_plugs_on",
+    "type": "ARMOR",
+    "name": {
+      "str": "attached ear plugs (in)",
+      "str_pl": "attached ear plugs (in)"
+    }
+  },
+  {
+    "id": "attached_ear_plugs_off",
+    "copy-from": "attached_ear_plugs_off",
+    "type": "ARMOR",
+    "name": {
+      "str": "attached ear plugs (out)",
+      "str_pl": "attached ear plugs (out)"
+    }
+  },
+  {
+    "id": "makeshift_ear_plugs_on",
+    "copy-from": "makeshift_ear_plugs_on",
+    "type": "ARMOR",
+    "name": {
+      "str": "makeshift ear plugs (in)",
+      "str_pl": "makeshift ear plugs (in)"
+    }
+  },
+  {
+    "id": "makeshift_ear_plugs_off",
+    "copy-from": "makeshift_ear_plugs_off",
+    "type": "ARMOR",
+    "name": {
+      "str": "makeshift ear plugs (out)",
+      "str_pl": "makeshift ear plugs (out)"
+    }
+  },
+  {
+    "id": "pom_poms",
+    "copy-from": "pom_poms",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "pom poms",
+      "str_pl": "pom poms"
+    }
+  },
+  {
+    "id": "knuckle_brass",
+    "copy-from": "knuckle_brass",
+    "type": "ARMOR",
+    "name": {
+      "str": "brass knuckles",
+      "str_pl": "brass knuckles"
+    }
+  },
+  {
+    "id": "xl_knuckle_brass",
+    "copy-from": "xl_knuckle_brass",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL brass knuckles",
+      "str_pl": "XL brass knuckles"
+    }
+  },
+  {
+    "id": "xs_knuckle_brass",
+    "copy-from": "xs_knuckle_brass",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS brass knuckles",
+      "str_pl": "XS brass knuckles"
+    }
+  },
+  {
+    "id": "knuckle_nail",
+    "copy-from": "knuckle_nail",
+    "type": "ARMOR",
+    "name": {
+      "str": "nail knuckles",
+      "str_pl": "nail knuckles"
+    }
+  },
+  {
+    "id": "xl_knuckle_nail",
+    "copy-from": "xl_knuckle_nail",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL nail knuckles",
+      "str_pl": "XL nail knuckles"
+    }
+  },
+  {
+    "id": "xs_knuckle_nail",
+    "copy-from": "xs_knuckle_nail",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS nail knuckles",
+      "str_pl": "XS nail knuckles"
+    }
+  },
+  {
+    "id": "knuckle_steel",
+    "copy-from": "knuckle_steel",
+    "type": "ARMOR",
+    "name": {
+      "str": "scrap knuckles",
+      "str_pl": "scrap knuckles"
+    }
+  },
+  {
+    "id": "xl_knuckle_steel",
+    "copy-from": "xl_knuckle_steel",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL scrap knuckles",
+      "str_pl": "XL scrap knuckles"
+    }
+  },
+  {
+    "id": "xs_knuckle_steel",
+    "copy-from": "xs_knuckle_steel",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS scrap knuckles",
+      "str_pl": "XS scrap knuckles"
+    }
+  },
+  {
+    "id": "knuckle_steel_forged",
+    "copy-from": "knuckle_steel_forged",
+    "type": "ARMOR",
+    "name": {
+      "str": "steel knuckles",
+      "str_pl": "steel knuckles"
+    }
+  },
+  {
+    "id": "xl_knuckle_steel_forged",
+    "copy-from": "xl_knuckle_steel_forged",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL steel knuckles",
+      "str_pl": "XL steel knuckles"
+    }
+  },
+  {
+    "id": "xs_knuckle_steel_forged",
+    "copy-from": "xs_knuckle_steel_forged",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS steel knuckles",
+      "str_pl": "XS steel knuckles"
+    }
+  },
+  {
+    "id": "gloves_studded",
+    "copy-from": "gloves_studded",
+    "type": "ARMOR",
+    "name": {
+      "str": "studded gloves",
+      "str_pl": "studded gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_studded",
+    "copy-from": "xl_gloves_studded",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL studded gloves",
+      "str_pl": "XL studded gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_studded",
+    "copy-from": "xs_gloves_studded",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS studded gloves",
+      "str_pl": "XS studded gloves"
+    }
+  },
+  {
+    "id": "butterfly_swords",
+    "copy-from": "butterfly_swords",
+    "type": "TOOL",
+    "name": {
+      "str": "butterfly swords",
+      "str_pl": "butterfly swords"
+    }
+  },
+  {
+    "id": "scissors",
+    "copy-from": "scissors",
+    "type": "TOOL",
+    "name": {
+      "str": "office scissors",
+      "str_pl": "office scissors"
+    }
+  },
+  {
+    "id": "scissors_child",
+    "copy-from": "scissors_child",
+    "type": "TOOL",
+    "name": {
+      "str": "kiddie scissors",
+      "str_pl": "kiddie scissors"
+    }
+  },
+  {
+    "id": "scissors_wavy",
+    "copy-from": "scissors_wavy",
+    "type": "TOOL",
+    "name": {
+      "str": "wavy scissors",
+      "str_pl": "wavy scissors"
+    }
+  },
+  {
+    "id": "scissors_medical",
+    "copy-from": "scissors_medical",
+    "type": "TOOL",
+    "name": {
+      "str": "medical scissors",
+      "str_pl": "medical scissors"
+    }
+  },
+  {
+    "id": "boltcutters",
+    "copy-from": "boltcutters",
+    "type": "TOOL",
+    "name": {
+      "str": "bolt cutters",
+      "str_pl": "bolt cutters"
+    }
+  },
+  {
+    "id": "tongs",
+    "copy-from": "tongs",
+    "type": "TOOL",
+    "name": {
+      "str": "kitchen tongs",
+      "str_pl": "kitchen tongs"
+    }
+  },
+  {
+    "id": "metalworking_tongs",
+    "copy-from": "metalworking_tongs",
+    "type": "TOOL",
+    "name": {
+      "str": "flatjaw tongs",
+      "str_pl": "flatjaw tongs"
+    }
+  },
+  {
+    "id": "knitting_needles",
+    "copy-from": "knitting_needles",
+    "type": "GENERIC",
+    "name": {
+      "str": "knitting needles",
+      "str_pl": "knitting needles"
+    }
+  },
+  {
+    "id": "kevlar_shears",
+    "copy-from": "kevlar_shears",
+    "type": "TOOL",
+    "name": {
+      "str": "Kevlar shears",
+      "str_pl": "Kevlar shears"
+    }
+  },
+  {
+    "id": "altered_sunglasses",
+    "copy-from": "altered_sunglasses",
+    "type": "ARMOR",
+    "name": {
+      "str": "strange sunglasses",
+      "str_pl": "strange sunglasses"
+    }
+  },
+  {
+    "id": "altered_scissors",
+    "copy-from": "altered_scissors",
+    "type": "TOOL",
+    "name": {
+      "str": "antique scissors",
+      "str_pl": "antique scissors"
+    }
+  },
+  {
+    "id": "robofac_basic_vambraces",
+    "copy-from": "robofac_basic_vambraces",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 prototype vambraces",
+      "str_pl": "Hub 01 prototype vambraces"
+    }
+  },
+  {
+    "id": "robofac_rubber_vambraces",
+    "copy-from": "robofac_rubber_vambraces",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 kinetic vambraces",
+      "str_pl": "Hub 01 kinetic vambraces"
+    }
+  },
+  {
+    "id": "robofac_nomex_vambraces",
+    "copy-from": "robofac_nomex_vambraces",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 turnout vambraces",
+      "str_pl": "Hub 01 turnout vambraces"
+    }
+  },
+  {
+    "id": "robofac_kevlar_vambraces",
+    "copy-from": "robofac_kevlar_vambraces",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 ballistic vambraces",
+      "str_pl": "Hub 01 ballistic vambraces"
+    }
+  },
+  {
+    "id": "robofac_military_vambraces",
+    "copy-from": "robofac_military_vambraces",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 soldier vambraces",
+      "str_pl": "Hub 01 soldier vambraces"
+    }
+  },
+  {
+    "id": "robofac_basic_greaves",
+    "copy-from": "robofac_basic_greaves",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 prototype greaves",
+      "str_pl": "Hub 01 prototype greaves"
+    }
+  },
+  {
+    "id": "robofac_rubber_greaves",
+    "copy-from": "robofac_rubber_greaves",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 kinetic greaves",
+      "str_pl": "Hub 01 kinetic greaves"
+    }
+  },
+  {
+    "id": "robofac_nomex_greaves",
+    "copy-from": "robofac_nomex_greaves",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 turnout greaves",
+      "str_pl": "Hub 01 turnout greaves"
+    }
+  },
+  {
+    "id": "robofac_kevlar_greaves",
+    "copy-from": "robofac_kevlar_greaves",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 ballistic greaves",
+      "str_pl": "Hub 01 ballistic greaves"
+    }
+  },
+  {
+    "id": "robofac_military_greaves",
+    "copy-from": "robofac_military_greaves",
+    "type": "ARMOR",
+    "name": {
+      "str": "Hub 01 soldier greaves",
+      "str_pl": "Hub 01 soldier greaves"
+    }
+  },
+  {
+    "id": "bastsandals",
+    "copy-from": "bastsandals",
+    "type": "ARMOR",
+    "name": {
+      "str": "cord sandals",
+      "str_pl": "cord sandals"
+    }
+  },
+  {
+    "id": "boots",
+    "copy-from": "boots",
+    "type": "ARMOR",
+    "name": {
+      "str": "boots",
+      "str_pl": "boots"
+    }
+  },
+  {
+    "id": "xl_boots",
+    "copy-from": "xl_boots",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL boots",
+      "str_pl": "XL boots"
+    }
+  },
+  {
+    "id": "xs_boots",
+    "copy-from": "xs_boots",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS boots",
+      "str_pl": "XS boots"
+    }
+  },
+  {
+    "id": "boots_bone",
+    "copy-from": "boots_bone",
+    "type": "ARMOR",
+    "name": {
+      "str": "occult boots",
+      "str_pl": "occult boots"
+    }
+  },
+  {
+    "id": "boots_bunker",
+    "copy-from": "boots_bunker",
+    "type": "ARMOR",
+    "name": {
+      "str": "turnout boots",
+      "str_pl": "turnout boots"
+    }
+  },
+  {
+    "id": "boots_chitin",
+    "copy-from": "boots_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "chitinous boots",
+      "str_pl": "chitinous boots"
+    }
+  },
+  {
+    "id": "xl_boots_chitin",
+    "copy-from": "xl_boots_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL chitinous boots",
+      "str_pl": "XL chitinous boots"
+    }
+  },
+  {
+    "id": "xs_boots_chitin",
+    "copy-from": "xs_boots_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS chitinous boots",
+      "str_pl": "XS chitinous boots"
+    }
+  },
+  {
+    "id": "boots_acidchitin",
+    "copy-from": "boots_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "biosilicified chitin boots",
+      "str_pl": "biosilicified chitin boots"
+    }
+  },
+  {
+    "id": "xl_boots_acidchitin",
+    "copy-from": "xl_boots_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL biosilicified chitin boots",
+      "str_pl": "XL biosilicified chitin boots"
+    }
+  },
+  {
+    "id": "xs_boots_acidchitin",
+    "copy-from": "xs_boots_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS biosilicified chitin boots",
+      "str_pl": "XS biosilicified chitin boots"
+    }
+  },
+  {
+    "id": "boots_combat",
+    "copy-from": "boots_combat",
+    "type": "ARMOR",
+    "name": {
+      "str": "combat boots",
+      "str_pl": "combat boots"
+    }
+  },
+  {
+    "id": "foot_protectors_eod",
+    "copy-from": "foot_protectors_eod",
+    "type": "ARMOR",
+    "name": {
+      "str": "EOD foot protectors",
+      "str_pl": "EOD foot protectors"
+    }
+  },
+  {
+    "id": "toecaps",
+    "copy-from": "toecaps",
+    "type": "ARMOR",
+    "name": {
+      "str": "toecaps",
+      "str_pl": "toecaps"
+    }
+  },
+  {
+    "id": "boots_fur",
+    "copy-from": "boots_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "fur boots",
+      "str_pl": "fur boots"
+    }
+  },
+  {
+    "id": "xl_boots_fur",
+    "copy-from": "xl_boots_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL fur boots",
+      "str_pl": "XL fur boots"
+    }
+  },
+  {
+    "id": "xs_boots_fur",
+    "copy-from": "xs_boots_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS fur boots",
+      "str_pl": "XS fur boots"
+    }
+  },
+  {
+    "id": "boots_faux_fur",
+    "copy-from": "boots_faux_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "faux fur boots",
+      "str_pl": "faux fur boots"
+    }
+  },
+  {
+    "id": "xl_boots_faux_fur",
+    "copy-from": "xl_boots_faux_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL faux fur boots",
+      "str_pl": "XL faux fur boots"
+    }
+  },
+  {
+    "id": "xs_boots_faux_fur",
+    "copy-from": "xs_boots_faux_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS faux fur boots",
+      "str_pl": "XS faux fur boots"
+    }
+  },
+  {
+    "id": "boots_hiking",
+    "copy-from": "boots_hiking",
+    "type": "ARMOR",
+    "name": {
+      "str": "hiking boots",
+      "str_pl": "hiking boots"
+    }
+  },
+  {
+    "id": "boots_larmor",
+    "copy-from": "boots_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather armor boots",
+      "str_pl": "leather armor boots"
+    }
+  },
+  {
+    "id": "xl_boots_larmor",
+    "copy-from": "xl_boots_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL leather armor boots",
+      "str_pl": "XL leather armor boots"
+    }
+  },
+  {
+    "id": "xs_boots_larmor",
+    "copy-from": "xs_boots_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS leather armor boots",
+      "str_pl": "XS leather armor boots"
+    }
+  },
+  {
+    "id": "boots_plate",
+    "copy-from": "boots_plate",
+    "type": "ARMOR",
+    "name": {
+      "str": "armored boots",
+      "str_pl": "armored boots"
+    }
+  },
+  {
+    "id": "xl_boots_plate",
+    "copy-from": "xl_boots_plate",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL armored boots",
+      "str_pl": "XL armored boots"
+    }
+  },
+  {
+    "id": "xs_boots_plate",
+    "copy-from": "xs_boots_plate",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS armored boots",
+      "str_pl": "XS armored boots"
+    }
+  },
+  {
+    "id": "boots_rubber",
+    "copy-from": "boots_rubber",
+    "type": "ARMOR",
+    "name": {
+      "str": "rubber boots",
+      "str_pl": "rubber boots"
+    }
+  },
+  {
+    "id": "boots_scrap",
+    "copy-from": "boots_scrap",
+    "type": "ARMOR",
+    "name": {
+      "str": "scrap boots",
+      "str_pl": "scrap boots"
+    }
+  },
+  {
+    "id": "xl_boots_scrap",
+    "copy-from": "xl_boots_scrap",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL scrap boots",
+      "str_pl": "XL scrap boots"
+    }
+  },
+  {
+    "id": "xs_boots_scrap",
+    "copy-from": "xs_boots_scrap",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS scrap boots",
+      "str_pl": "XS scrap boots"
+    }
+  },
+  {
+    "id": "sabaton_metal_sheets",
+    "copy-from": "sabaton_metal_sheets",
+    "type": "ARMOR",
+    "name": {
+      "str": "sheet metal sabatons",
+      "str_pl": "sheet metal sabatons"
+    }
+  },
+  {
+    "id": "ch_sabaton_metal_sheets",
+    "copy-from": "ch_sabaton_metal_sheets",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened sheet metal sabatons",
+      "str_pl": "case hardened sheet metal sabatons"
+    }
+  },
+  {
+    "id": "boots_steel",
+    "copy-from": "boots_steel",
+    "type": "ARMOR",
+    "name": {
+      "str": "steeltoed boots",
+      "str_pl": "steeltoed boots"
+    }
+  },
+  {
+    "id": "sneakers_steel",
+    "copy-from": "sneakers_steel",
+    "type": "ARMOR",
+    "name": {
+      "str": "steeltoed sneakers",
+      "str_pl": "steeltoed sneakers"
+    }
+  },
+  {
+    "id": "boots_western",
+    "copy-from": "boots_western",
+    "type": "ARMOR",
+    "name": {
+      "str": "western boots",
+      "str_pl": "western boots"
+    }
+  },
+  {
+    "id": "boots_winter",
+    "copy-from": "boots_winter",
+    "type": "ARMOR",
+    "name": {
+      "str": "winter boots",
+      "str_pl": "winter boots"
+    }
+  },
+  {
+    "id": "xl_boots_winter",
+    "copy-from": "xl_boots_winter",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL winter boots",
+      "str_pl": "XL winter boots"
+    }
+  },
+  {
+    "id": "xs_boots_winter",
+    "copy-from": "xs_boots_winter",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS winter boots",
+      "str_pl": "XS winter boots"
+    }
+  },
+  {
+    "id": "cleats",
+    "copy-from": "cleats",
+    "type": "ARMOR",
+    "name": {
+      "str": "cleats",
+      "str_pl": "cleats"
+    }
+  },
+  {
+    "id": "golf_shoes",
+    "copy-from": "golf_shoes",
+    "type": "ARMOR",
+    "name": {
+      "str": "golf shoes",
+      "str_pl": "golf shoes"
+    }
+  },
+  {
+    "id": "clogs",
+    "copy-from": "clogs",
+    "type": "ARMOR",
+    "name": {
+      "str": "wooden clogs",
+      "str_pl": "wooden clogs"
+    }
+  },
+  {
+    "id": "clownshoes",
+    "copy-from": "clownshoes",
+    "type": "ARMOR",
+    "name": {
+      "str": "clown shoes",
+      "str_pl": "clown shoes"
+    }
+  },
+  {
+    "id": "dance_shoes",
+    "copy-from": "dance_shoes",
+    "type": "ARMOR",
+    "name": {
+      "str": "dance shoes",
+      "str_pl": "dance shoes"
+    }
+  },
+  {
+    "id": "dress_shoes",
+    "copy-from": "dress_shoes",
+    "type": "ARMOR",
+    "name": {
+      "str": "dress shoes",
+      "str_pl": "dress shoes"
+    }
+  },
+  {
+    "id": "flip_flops",
+    "copy-from": "flip_flops",
+    "type": "ARMOR",
+    "name": {
+      "str": "flip-flops",
+      "str_pl": "flip-flops"
+    }
+  },
+  {
+    "id": "flip_flops_exp",
+    "copy-from": "flip_flops_exp",
+    "type": "ARMOR",
+    "name": {
+      "str": "expensive flip-flops",
+      "str_pl": "expensive flip-flops"
+    }
+  },
+  {
+    "id": "footrags",
+    "copy-from": "footrags",
+    "type": "ARMOR",
+    "name": {
+      "str": "foot rags",
+      "str_pl": "foot rags"
+    }
+  },
+  {
+    "id": "footrags_fur",
+    "copy-from": "footrags_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "fur foot wraps",
+      "str_pl": "fur foot wraps"
+    }
+  },
+  {
+    "id": "footrags_faux_fur",
+    "copy-from": "footrags_faux_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "faux fur foot wraps",
+      "str_pl": "faux fur foot wraps"
+    }
+  },
+  {
+    "id": "footrags_leather",
+    "copy-from": "footrags_leather",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather foot wraps",
+      "str_pl": "leather foot wraps"
+    }
+  },
+  {
+    "id": "footrags_wool",
+    "copy-from": "footrags_wool",
+    "type": "ARMOR",
+    "name": {
+      "str": "wool foot wraps",
+      "str_pl": "wool foot wraps"
+    }
+  },
+  {
+    "id": "geta",
+    "copy-from": "geta",
+    "type": "ARMOR",
+    "name": {
+      "str": "geta",
+      "str_pl": "geta"
+    }
+  },
+  {
+    "id": "heels",
+    "copy-from": "heels",
+    "type": "ARMOR",
+    "name": {
+      "str": "heels",
+      "str_pl": "heels"
+    }
+  },
+  {
+    "id": "knee_high_boots",
+    "copy-from": "knee_high_boots",
+    "type": "ARMOR",
+    "name": {
+      "str": "knee-high boots",
+      "str_pl": "knee-high boots"
+    }
+  },
+  {
+    "id": "motor_police_boots",
+    "copy-from": "motor_police_boots",
+    "type": "ARMOR",
+    "name": {
+      "str": "motorcycle police boots",
+      "str_pl": "motorcycle police boots"
+    }
+  },
+  {
+    "id": "leathersandals",
+    "copy-from": "leathersandals",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather sandals",
+      "str_pl": "leather sandals"
+    }
+  },
+  {
+    "id": "lowtops",
+    "copy-from": "lowtops",
+    "type": "ARMOR",
+    "name": {
+      "str": "lowtop tennis shoes",
+      "str_pl": "lowtop tennis shoes"
+    }
+  },
+  {
+    "id": "mocassins",
+    "copy-from": "mocassins",
+    "type": "ARMOR",
+    "name": {
+      "str": "moccasins",
+      "str_pl": "moccasins"
+    }
+  },
+  {
+    "id": "motorbike_boots",
+    "copy-from": "motorbike_boots",
+    "type": "ARMOR",
+    "name": {
+      "str": "motorcycle boots",
+      "str_pl": "motorcycle boots"
+    }
+  },
+  {
+    "id": "roller_blades",
+    "copy-from": "roller_blades",
+    "type": "ARMOR",
+    "name": {
+      "str": "rollerblades",
+      "str_pl": "rollerblades"
+    }
+  },
+  {
+    "id": "rollerskates",
+    "copy-from": "rollerskates",
+    "type": "ARMOR",
+    "name": {
+      "str": "rollerskates",
+      "str_pl": "rollerskates"
+    }
+  },
+  {
+    "id": "shoes_birchbark",
+    "copy-from": "shoes_birchbark",
+    "type": "ARMOR",
+    "name": {
+      "str": "birchbark shoes",
+      "str_pl": "birchbark shoes"
+    }
+  },
+  {
+    "id": "shoes_bowling",
+    "copy-from": "shoes_bowling",
+    "type": "ARMOR",
+    "name": {
+      "str": "bowling shoes",
+      "str_pl": "bowling shoes"
+    }
+  },
+  {
+    "id": "slippers",
+    "copy-from": "slippers",
+    "type": "ARMOR",
+    "name": {
+      "str": "slippers",
+      "str_pl": "slippers"
+    }
+  },
+  {
+    "id": "sneakers",
+    "copy-from": "sneakers",
+    "type": "ARMOR",
+    "name": {
+      "str": "sneakers",
+      "str_pl": "sneakers"
+    }
+  },
+  {
+    "id": "straw_sandals",
+    "copy-from": "straw_sandals",
+    "type": "ARMOR",
+    "name": {
+      "str": "straw sandals",
+      "str_pl": "straw sandals"
+    }
+  },
+  {
+    "id": "swim_fins",
+    "copy-from": "swim_fins",
+    "type": "ARMOR",
+    "name": {
+      "str": "swim fins",
+      "str_pl": "swim fins"
+    }
+  },
+  {
+    "id": "thigh_high_boots",
+    "copy-from": "thigh_high_boots",
+    "type": "ARMOR",
+    "name": {
+      "str": "thigh-high boots",
+      "str_pl": "thigh-high boots"
+    }
+  },
+  {
+    "id": "roller_shoes_off",
+    "copy-from": "roller_shoes_off",
+    "type": "ARMOR",
+    "name": {
+      "str": "heelys (off)",
+      "str_pl": "heelys (off)"
+    }
+  },
+  {
+    "id": "roller_shoes_on",
+    "copy-from": "roller_shoes_on",
+    "type": "ARMOR",
+    "name": {
+      "str": "heelys (on)",
+      "str_pl": "heelys (on)"
+    }
+  },
+  {
+    "id": "chainmail_junk_feet",
+    "copy-from": "chainmail_junk_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "chainmail chausses",
+      "str_pl": "chainmail chausses"
+    }
+  },
+  {
+    "id": "lc_chainmail_feet",
+    "copy-from": "lc_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel chainmail chausses",
+      "str_pl": "mild steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xl_lc_chainmail_feet",
+    "copy-from": "xl_lc_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL mild steel chainmail chausses",
+      "str_pl": "XL mild steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xs_lc_chainmail_feet",
+    "copy-from": "xs_lc_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS mild steel chainmail chausses",
+      "str_pl": "XS mild steel chainmail chausses"
+    }
+  },
+  {
+    "id": "mc_chainmail_feet",
+    "copy-from": "mc_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel chainmail chausses",
+      "str_pl": "medium steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xl_mc_chainmail_feet",
+    "copy-from": "xl_mc_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL medium steel chainmail chausses",
+      "str_pl": "XL medium steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xs_mc_chainmail_feet",
+    "copy-from": "xs_mc_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS medium steel chainmail chausses",
+      "str_pl": "XS medium steel chainmail chausses"
+    }
+  },
+  {
+    "id": "hc_chainmail_feet",
+    "copy-from": "hc_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel chainmail chausses",
+      "str_pl": "high steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xl_hc_chainmail_feet",
+    "copy-from": "xl_hc_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL high steel chainmail chausses",
+      "str_pl": "XL high steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xs_hc_chainmail_feet",
+    "copy-from": "xs_hc_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS high steel chainmail chausses",
+      "str_pl": "XS high steel chainmail chausses"
+    }
+  },
+  {
+    "id": "ch_chainmail_feet",
+    "copy-from": "ch_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "hardened steel chainmail chausses",
+      "str_pl": "hardened steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xl_ch_chainmail_feet",
+    "copy-from": "xl_ch_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL hardened steel chainmail chausses",
+      "str_pl": "XL hardened steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xs_ch_chainmail_feet",
+    "copy-from": "xs_ch_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS hardened steel chainmail chausses",
+      "str_pl": "XS hardened steel chainmail chausses"
+    }
+  },
+  {
+    "id": "qt_chainmail_feet",
+    "copy-from": "qt_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered steel chainmail chausses",
+      "str_pl": "tempered steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xl_qt_chainmail_feet",
+    "copy-from": "xl_qt_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL tempered steel chainmail chausses",
+      "str_pl": "XL tempered steel chainmail chausses"
+    }
+  },
+  {
+    "id": "xs_qt_chainmail_feet",
+    "copy-from": "xs_qt_chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS tempered steel chainmail chausses",
+      "str_pl": "XS tempered steel chainmail chausses"
+    }
+  },
+  {
+    "id": "nomex_socks",
+    "copy-from": "nomex_socks",
+    "type": "ARMOR",
+    "name": {
+      "str": "flame-resistant socks",
+      "str_pl": "flame-resistant socks"
+    }
+  },
+  {
+    "id": "xlnomex_socks",
+    "copy-from": "xlnomex_socks",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL flame-resistant socks",
+      "str_pl": "XL flame-resistant socks"
+    }
+  },
+  {
+    "id": "xsnomex_socks",
+    "copy-from": "xsnomex_socks",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS flame-resistant socks",
+      "str_pl": "XS flame-resistant socks"
+    }
+  },
+  {
+    "id": "socks",
+    "copy-from": "socks",
+    "type": "ARMOR",
+    "name": {
+      "str": "socks",
+      "str_pl": "socks"
+    }
+  },
+  {
+    "id": "xlsocks",
+    "copy-from": "xlsocks",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL socks",
+      "str_pl": "XL socks"
+    }
+  },
+  {
+    "id": "xssocks",
+    "copy-from": "xssocks",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS socks",
+      "str_pl": "XS socks"
+    }
+  },
+  {
+    "id": "socks_ankle",
+    "copy-from": "socks_ankle",
+    "type": "ARMOR",
+    "name": {
+      "str": "ankle socks",
+      "str_pl": "ankle socks"
+    }
+  },
+  {
+    "id": "socks_bag",
+    "copy-from": "socks_bag",
+    "type": "ARMOR",
+    "name": {
+      "str": "bag socks",
+      "str_pl": "bag socks"
+    }
+  },
+  {
+    "id": "socks_bowling",
+    "copy-from": "socks_bowling",
+    "type": "ARMOR",
+    "name": {
+      "str": "disposable bowling socks",
+      "str_pl": "disposable bowling socks"
+    }
+  },
+  {
+    "id": "socks_wool",
+    "copy-from": "socks_wool",
+    "type": "ARMOR",
+    "name": {
+      "str": "wool socks",
+      "str_pl": "wool socks"
+    }
+  },
+  {
+    "id": "xlsocks_wool",
+    "copy-from": "xlsocks_wool",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL wool socks",
+      "str_pl": "XL wool socks"
+    }
+  },
+  {
+    "id": "xssocks_wool",
+    "copy-from": "xssocks_wool",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS wool socks",
+      "str_pl": "XS wool socks"
+    }
+  },
+  {
+    "id": "stockings",
+    "copy-from": "stockings",
+    "type": "ARMOR",
+    "name": {
+      "str": "stockings",
+      "str_pl": "stockings"
+    }
+  },
+  {
+    "id": "stockings_tent_legs",
+    "copy-from": "stockings_tent_legs",
+    "type": "ARMOR",
+    "name": {
+      "str": "tentacle stockings",
+      "str_pl": "tentacle stockings"
+    }
+  },
+  {
+    "id": "tabi_dress",
+    "copy-from": "tabi_dress",
+    "type": "ARMOR",
+    "name": {
+      "str": "tabi",
+      "str_pl": "tabi"
+    }
+  },
+  {
+    "id": "tabi_gi",
+    "copy-from": "tabi_gi",
+    "type": "ARMOR",
+    "name": {
+      "str": "gi tabi",
+      "str_pl": "gi tabi"
+    }
+  },
+  {
+    "id": "2byshin_guard",
+    "copy-from": "2byshin_guard",
+    "type": "ARMOR",
+    "name": {
+      "str": "2-by-shin guards",
+      "str_pl": "2-by-shin guards"
+    }
+  },
+  {
+    "id": "carpet_legguards",
+    "copy-from": "carpet_legguards",
+    "type": "ARMOR",
+    "name": {
+      "str": "carpet leg guards",
+      "str_pl": "carpet leg guards"
+    }
+  },
+  {
+    "id": "carpet_greaves",
+    "copy-from": "carpet_greaves",
+    "type": "ARMOR",
+    "name": {
+      "str": "carpet greaves",
+      "str_pl": "carpet greaves"
+    }
+  },
+  {
+    "id": "legguard_chitin",
+    "copy-from": "legguard_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "chitin leg guards",
+      "str_pl": "chitin leg guards"
+    }
+  },
+  {
+    "id": "xl_legguard_chitin",
+    "copy-from": "xl_legguard_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL chitin leg guards",
+      "str_pl": "XL chitin leg guards"
+    }
+  },
+  {
+    "id": "xs_legguard_chitin",
+    "copy-from": "xs_legguard_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS chitin leg guards",
+      "str_pl": "XS chitin leg guards"
+    }
+  },
+  {
+    "id": "legguard_acidchitin",
+    "copy-from": "legguard_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "biosilicified chitin leg guards",
+      "str_pl": "biosilicified chitin leg guards"
+    }
+  },
+  {
+    "id": "xl_legguard_acidchitin",
+    "copy-from": "xl_legguard_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL biosilicified chitin leg guards",
+      "str_pl": "XL biosilicified chitin guards"
+    }
+  },
+  {
+    "id": "xs_legguard_acidchitin",
+    "copy-from": "xs_legguard_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS biosilicified chitin leg guards",
+      "str_pl": "XS biosilicified chitin guards"
+    }
+  },
+  {
+    "id": "knee_pads",
+    "copy-from": "knee_pads",
+    "type": "ARMOR",
+    "name": {
+      "str": "knee pads",
+      "str_pl": "knee pads"
+    }
+  },
+  {
+    "id": "legguard_bronze",
+    "copy-from": "legguard_bronze",
+    "type": "ARMOR",
+    "name": {
+      "str": "bronze greaves",
+      "str_pl": "bronze greaves"
+    }
+  },
+  {
+    "id": "xl_legguard_bronze",
+    "copy-from": "xl_legguard_bronze",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL bronze greaves",
+      "str_pl": "XL bronze greaves"
+    }
+  },
+  {
+    "id": "xs_legguard_bronze",
+    "copy-from": "xs_legguard_bronze",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS bronze greaves",
+      "str_pl": "XS bronze greaves"
+    }
+  },
+  {
+    "id": "legguard_hard",
+    "copy-from": "legguard_hard",
+    "type": "ARMOR",
+    "name": {
+      "str": "hard leg guards",
+      "str_pl": "hard leg guards"
+    }
+  },
+  {
+    "id": "legguard_lightplate",
+    "copy-from": "legguard_lightplate",
+    "type": "ARMOR",
+    "name": {
+      "str": "steel leg guards",
+      "str_pl": "steel leg guards"
+    }
+  },
+  {
+    "id": "xl_legguard_lightplate",
+    "copy-from": "xl_legguard_lightplate",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL steel leg guards",
+      "str_pl": "XL steel leg guards"
+    }
+  },
+  {
+    "id": "xs_legguard_lightplate",
+    "copy-from": "xs_legguard_lightplate",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS steel leg guards",
+      "str_pl": "XS steel leg guards"
+    }
+  },
+  {
+    "id": "legguard_metal",
+    "copy-from": "legguard_metal",
+    "type": "ARMOR",
+    "name": {
+      "str": "iron greaves",
+      "str_pl": "iron greaves"
+    }
+  },
+  {
+    "id": "xl_legguard_metal",
+    "copy-from": "xl_legguard_metal",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL iron greaves",
+      "str_pl": "XL iron greaves"
+    }
+  },
+  {
+    "id": "xs_legguard_metal",
+    "copy-from": "xs_legguard_metal",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS iron greaves",
+      "str_pl": "XS iron greaves"
+    }
+  },
+  {
+    "id": "legguard_metal_sheets",
+    "copy-from": "legguard_metal_sheets",
+    "type": "ARMOR",
+    "name": {
+      "str": "sheet metal leg guards",
+      "str_pl": "sheet metal leg guards"
+    }
+  },
+  {
+    "id": "ch_legguard_metal_sheets",
+    "copy-from": "ch_legguard_metal_sheets",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened sheet metal leg guards",
+      "str_pl": "case hardened sheet metal leg guards"
+    }
+  },
+  {
+    "id": "legguard_metal_sheets_greaves",
+    "copy-from": "legguard_metal_sheets_greaves",
+    "type": "ARMOR",
+    "name": {
+      "str": "sheet metal greaves",
+      "str_pl": "sheet metal greaves"
+    }
+  },
+  {
+    "id": "ch_legguard_metal_sheets_greaves",
+    "copy-from": "ch_legguard_metal_sheets_greaves",
+    "type": "ARMOR",
+    "name": {
+      "str": "hardened sheet metal greaves",
+      "str_pl": "hardened sheet metal greaves"
+    }
+  },
+  {
+    "id": "legguard_metal_sheets_knees",
+    "copy-from": "legguard_metal_sheets_knees",
+    "type": "ARMOR",
+    "name": {
+      "str": "sheet metal knee guards",
+      "str_pl": "sheet metal knee guards"
+    }
+  },
+  {
+    "id": "ch_legguard_metal_sheets_knees",
+    "copy-from": "ch_legguard_metal_sheets_knees",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened sheet metal knee guards",
+      "str_pl": "case hardened sheet metal knee guards"
+    }
+  },
+  {
+    "id": "xl_legguard_metal_sheets",
+    "copy-from": "xl_legguard_metal_sheets",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL sheet metal leg guards",
+      "str_pl": "XL sheet metal leg guards"
+    }
+  },
+  {
+    "id": "xs_legguard_metal_sheets",
+    "copy-from": "xs_legguard_metal_sheets",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS sheet metal leg guards",
+      "str_pl": "XS sheet metal leg guards"
+    }
+  },
+  {
+    "id": "legguard_paper",
+    "copy-from": "legguard_paper",
+    "type": "ARMOR",
+    "name": {
+      "str": "paper leg guards",
+      "str_pl": "paper leg guards"
+    }
+  },
+  {
+    "id": "improvised_legguard_tire",
+    "copy-from": "improvised_legguard_tire",
+    "type": "ARMOR",
+    "name": {
+      "str": "improvised tire leg guards",
+      "str_pl": "improvised tire leg guards"
+    }
+  },
+  {
+    "id": "legguard_scrap",
+    "copy-from": "legguard_scrap",
+    "type": "ARMOR",
+    "name": {
+      "str": "scrap leg guards",
+      "str_pl": "scrap leg guards"
+    }
+  },
+  {
+    "id": "xl_legguard_scrap",
+    "copy-from": "xl_legguard_scrap",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL scrap leg guards",
+      "str_pl": "XL scrap leg guards"
+    }
+  },
+  {
+    "id": "xs_legguard_scrap",
+    "copy-from": "xs_legguard_scrap",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS scrap leg guards",
+      "str_pl": "XS scrap leg guards"
+    }
+  },
+  {
+    "id": "legguard_tire",
+    "copy-from": "legguard_tire",
+    "type": "ARMOR",
+    "name": {
+      "str": "tire leg guards",
+      "str_pl": "tire leg guards"
+    }
+  },
+  {
+    "id": "xl_legguard_tire",
+    "copy-from": "xl_legguard_tire",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL tire leg guards",
+      "str_pl": "XL tire leg guards"
+    }
+  },
+  {
+    "id": "xs_legguard_tire",
+    "copy-from": "xs_legguard_tire",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS tire leg guards",
+      "str_pl": "XS tire leg guards"
+    }
+  },
+  {
+    "id": "armor_riot_leg",
+    "copy-from": "armor_riot_leg",
+    "type": "ARMOR",
+    "name": {
+      "str": "riot leg guards",
+      "str_pl": "riot leg guards"
+    }
+  },
+  {
+    "id": "legguard_larmor",
+    "copy-from": "legguard_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather leg guards",
+      "str_pl": "leather leg guards"
+    }
+  },
+  {
+    "id": "xl_legguard_larmor",
+    "copy-from": "xl_legguard_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL leather leg guards",
+      "str_pl": "XL leather leg guards"
+    }
+  },
+  {
+    "id": "xs_legguard_larmor",
+    "copy-from": "xs_legguard_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS leather leg guards",
+      "str_pl": "XS leather leg guards"
+    }
+  },
+  {
+    "id": "beekeeping_gloves",
+    "copy-from": "beekeeping_gloves",
+    "type": "ARMOR",
+    "name": {
+      "str": "beekeeping gloves",
+      "str_pl": "beekeeping gloves"
+    }
+  },
+  {
+    "id": "boxing_gloves",
+    "copy-from": "boxing_gloves",
+    "type": "ARMOR",
+    "name": {
+      "str": "boxing gloves",
+      "str_pl": "boxing gloves"
+    }
+  },
+  {
+    "id": "chainmail_junk_hands",
+    "copy-from": "chainmail_junk_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "chainmail gloves",
+      "str_pl": "chainmail gloves"
+    }
+  },
+  {
+    "id": "lc_chainmail_hands",
+    "copy-from": "lc_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel chainmail gloves",
+      "str_pl": "mild steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xl_lc_chainmail_hands",
+    "copy-from": "xl_lc_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL mild steel chainmail gloves",
+      "str_pl": "XL mild steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xs_lc_chainmail_hands",
+    "copy-from": "xs_lc_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS mild steel chainmail gloves",
+      "str_pl": "XS mild steel chainmail gloves"
+    }
+  },
+  {
+    "id": "mc_chainmail_hands",
+    "copy-from": "mc_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel chainmail gloves",
+      "str_pl": "medium steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xl_mc_chainmail_hands",
+    "copy-from": "xl_mc_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL medium steel chainmail gloves",
+      "str_pl": "XL medium steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xs_mc_chainmail_hands",
+    "copy-from": "xs_mc_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS medium steel chainmail gloves",
+      "str_pl": "XS medium steel chainmail gloves"
+    }
+  },
+  {
+    "id": "hc_chainmail_hands",
+    "copy-from": "hc_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel chainmail gloves",
+      "str_pl": "high steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xl_hc_chainmail_hands",
+    "copy-from": "xl_hc_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL high steel chainmail gloves",
+      "str_pl": "XL high steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xs_hc_chainmail_hands",
+    "copy-from": "xs_hc_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS high steel chainmail gloves",
+      "str_pl": "XS high steel chainmail gloves"
+    }
+  },
+  {
+    "id": "ch_chainmail_hands",
+    "copy-from": "ch_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "hardened steel chainmail gloves",
+      "str_pl": "hardened steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xl_ch_chainmail_hands",
+    "copy-from": "xl_ch_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL hardened steel chainmail gloves",
+      "str_pl": "XL hardened steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xs_ch_chainmail_hands",
+    "copy-from": "xs_ch_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS hardened steel chainmail gloves",
+      "str_pl": "XS hardened steel chainmail gloves"
+    }
+  },
+  {
+    "id": "qt_chainmail_hands",
+    "copy-from": "qt_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered steel chainmail gloves",
+      "str_pl": "tempered steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xl_qt_chainmail_hands",
+    "copy-from": "xl_qt_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL tempered steel chainmail gloves",
+      "str_pl": "XL tempered steel chainmail gloves"
+    }
+  },
+  {
+    "id": "xs_qt_chainmail_hands",
+    "copy-from": "xs_qt_chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS tempered steel chainmail gloves",
+      "str_pl": "XS tempered steel chainmail gloves"
+    }
+  },
+  {
+    "id": "fire_gauntlets",
+    "copy-from": "fire_gauntlets",
+    "type": "ARMOR",
+    "name": {
+      "str": "fire gauntlets",
+      "str_pl": "fire gauntlets"
+    }
+  },
+  {
+    "id": "gauntlets_chitin",
+    "copy-from": "gauntlets_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "chitinous gauntlets",
+      "str_pl": "chitinous gauntlets"
+    }
+  },
+  {
+    "id": "xl_gauntlets_chitin",
+    "copy-from": "xl_gauntlets_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL chitinous gauntlets",
+      "str_pl": "XL chitinous gauntlets"
+    }
+  },
+  {
+    "id": "xs_gauntlets_chitin",
+    "copy-from": "xs_gauntlets_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS chitinous gauntlets",
+      "str_pl": "XS chitinous gauntlets"
+    }
+  },
+  {
+    "id": "gauntlets_acidchitin",
+    "copy-from": "gauntlets_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "biosilicified chitin gauntlets",
+      "str_pl": "biosilicified chitin gauntlets"
+    }
+  },
+  {
+    "id": "xl_gauntlets_acidchitin",
+    "copy-from": "xl_gauntlets_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL biosilicified chitin gauntlets",
+      "str_pl": "XL biosilicified chitin gauntlets"
+    }
+  },
+  {
+    "id": "xs_gauntlets_acidchitin",
+    "copy-from": "xs_gauntlets_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS biosilicified chitin gauntlets",
+      "str_pl": "XS biosilicified chitin gauntlets"
+    }
+  },
+  {
+    "id": "gloves_claws",
+    "copy-from": "gloves_claws",
+    "type": "ARMOR",
+    "name": {
+      "str": "claw gloves",
+      "str_pl": "claw gloves"
+    }
+  },
+  {
+    "id": "gauntlets_larmor",
+    "copy-from": "gauntlets_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather armor gauntlets",
+      "str_pl": "leather armor gauntlets"
+    }
+  },
+  {
+    "id": "xl_gauntlets_larmor",
+    "copy-from": "xl_gauntlets_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL leather armor gauntlets",
+      "str_pl": "XL leather armor gauntlets"
+    }
+  },
+  {
+    "id": "xs_gauntlets_larmor",
+    "copy-from": "xs_gauntlets_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS leather armor gauntlets",
+      "str_pl": "XS leather armor gauntlets"
+    }
+  },
+  {
+    "id": "gloves_bag",
+    "copy-from": "gloves_bag",
+    "type": "ARMOR",
+    "name": {
+      "str": "bag gloves",
+      "str_pl": "bag gloves"
+    }
+  },
+  {
+    "id": "gloves_fingerless",
+    "copy-from": "gloves_fingerless",
+    "type": "ARMOR",
+    "name": {
+      "str": "fingerless gloves",
+      "str_pl": "fingerless gloves"
+    }
+  },
+  {
+    "id": "gloves_fingerless_mod",
+    "copy-from": "gloves_fingerless_mod",
+    "type": "ARMOR",
+    "name": {
+      "str": "armored fingerless gloves",
+      "str_pl": "armored fingerless gloves"
+    }
+  },
+  {
+    "id": "mitten_gaunt_metal_sheets",
+    "copy-from": "mitten_gaunt_metal_sheets",
+    "type": "ARMOR",
+    "name": {
+      "str": "sheet metal gauntlets",
+      "str_pl": "sheet metal gauntlets"
+    }
+  },
+  {
+    "id": "ch_mitten_gaunt_metal_sheets",
+    "copy-from": "ch_mitten_gaunt_metal_sheets",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened sheet metal gauntlets",
+      "str_pl": "case hardened sheet metal gauntlets"
+    }
+  },
+  {
+    "id": "gloves_fur",
+    "copy-from": "gloves_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "fur gloves",
+      "str_pl": "fur gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_fur",
+    "copy-from": "xl_gloves_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL fur gloves",
+      "str_pl": "XL fur gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_fur",
+    "copy-from": "xs_gloves_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS fur gloves",
+      "str_pl": "XS fur gloves"
+    }
+  },
+  {
+    "id": "gloves_faux_fur",
+    "copy-from": "gloves_faux_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "faux fur gloves",
+      "str_pl": "faux fur gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_faux_fur",
+    "copy-from": "xl_gloves_faux_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL faux fur gloves",
+      "str_pl": "XL faux fur gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_faux_fur",
+    "copy-from": "xs_gloves_faux_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS faux fur gloves",
+      "str_pl": "XS fur gloves"
+    }
+  },
+  {
+    "id": "gloves_leather",
+    "copy-from": "gloves_leather",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather gloves",
+      "str_pl": "leather gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_leather",
+    "copy-from": "xl_gloves_leather",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL leather gloves",
+      "str_pl": "XL leather gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_leather",
+    "copy-from": "xs_gloves_leather",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS leather gloves",
+      "str_pl": "XS leather gloves"
+    }
+  },
+  {
+    "id": "gloves_light",
+    "copy-from": "gloves_light",
+    "type": "ARMOR",
+    "name": {
+      "str": "light gloves",
+      "str_pl": "light gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_light",
+    "copy-from": "xl_gloves_light",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL light gloves",
+      "str_pl": "XL light gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_light",
+    "copy-from": "xs_gloves_light",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS light gloves",
+      "str_pl": "XS light gloves"
+    }
+  },
+  {
+    "id": "gloves_liner",
+    "copy-from": "gloves_liner",
+    "type": "ARMOR",
+    "name": {
+      "str": "glove liners",
+      "str_pl": "glove liners"
+    }
+  },
+  {
+    "id": "xl_gloves_liner",
+    "copy-from": "xl_gloves_liner",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL glove liners",
+      "str_pl": "XL glove liners"
+    }
+  },
+  {
+    "id": "xs_gloves_liner",
+    "copy-from": "xs_gloves_liner",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS glove liners",
+      "str_pl": "XS glove liners"
+    }
+  },
+  {
+    "id": "gloves_medical",
+    "copy-from": "gloves_medical",
+    "type": "ARMOR",
+    "name": {
+      "str": "medical gloves",
+      "str_pl": "medical gloves"
+    }
+  },
+  {
+    "id": "gloves_black",
+    "copy-from": "gloves_black",
+    "type": "ARMOR",
+    "name": {
+      "str": "black gloves",
+      "str_pl": "black gloves"
+    }
+  },
+  {
+    "id": "gloves_plate",
+    "copy-from": "gloves_plate",
+    "type": "ARMOR",
+    "name": {
+      "str": "armored gauntlets",
+      "str_pl": "armored gauntlets"
+    }
+  },
+  {
+    "id": "xl_gloves_plate",
+    "copy-from": "xl_gloves_plate",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL armored gauntlets",
+      "str_pl": "XL armored gauntlets"
+    }
+  },
+  {
+    "id": "xs_gloves_plate",
+    "copy-from": "xs_gloves_plate",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS armored gauntlets",
+      "str_pl": "XS armored gauntlets"
+    }
+  },
+  {
+    "id": "gloves_rubber",
+    "copy-from": "gloves_rubber",
+    "type": "ARMOR",
+    "name": {
+      "str": "rubber gloves",
+      "str_pl": "rubber gloves"
+    }
+  },
+  {
+    "id": "gloves_tactical",
+    "copy-from": "gloves_tactical",
+    "type": "ARMOR",
+    "name": {
+      "str": "tactical gloves",
+      "str_pl": "tactical gloves"
+    }
+  },
+  {
+    "id": "gloves_winter",
+    "copy-from": "gloves_winter",
+    "type": "ARMOR",
+    "name": {
+      "str": "winter gloves",
+      "str_pl": "winter gloves"
+    }
+  },
+  {
+    "id": "gloves_wool",
+    "copy-from": "gloves_wool",
+    "type": "ARMOR",
+    "name": {
+      "str": "wool gloves",
+      "str_pl": "wool gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_wool",
+    "copy-from": "xl_gloves_wool",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL wool gloves",
+      "str_pl": "XL wool gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_wool",
+    "copy-from": "xs_gloves_wool",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS wool gloves",
+      "str_pl": "XS wool gloves"
+    }
+  },
+  {
+    "id": "gloves_work",
+    "copy-from": "gloves_work",
+    "type": "ARMOR",
+    "name": {
+      "str": "work gloves",
+      "str_pl": "work gloves"
+    }
+  },
+  {
+    "id": "gloves_cut_resistant",
+    "copy-from": "gloves_cut_resistant",
+    "type": "ARMOR",
+    "name": {
+      "str": "cut-resistant gloves",
+      "str_pl": "cut-resistant gloves"
+    }
+  },
+  {
+    "id": "gloves_wraps",
+    "copy-from": "gloves_wraps",
+    "type": "ARMOR",
+    "name": {
+      "str": "hand wraps",
+      "str_pl": "hand wraps"
+    }
+  },
+  {
+    "id": "gloves_wraps_fur",
+    "copy-from": "gloves_wraps_fur",
+    "type": "ARMOR",
+    "name": {
+      "str": "fur hand wraps",
+      "str_pl": "fur hand wraps"
+    }
+  },
+  {
+    "id": "gloves_wraps_leather",
+    "copy-from": "gloves_wraps_leather",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather hand wraps",
+      "str_pl": "leather hand wraps"
+    }
+  },
+  {
+    "id": "gloves_wraps_wool",
+    "copy-from": "gloves_wraps_wool",
+    "type": "ARMOR",
+    "name": {
+      "str": "wool hand wraps",
+      "str_pl": "wool hand wraps"
+    }
+  },
+  {
+    "id": "long_glove_white",
+    "copy-from": "long_glove_white",
+    "type": "ARMOR",
+    "name": {
+      "str": "extra long white gloves",
+      "str_pl": "extra long white gloves"
+    }
+  },
+  {
+    "id": "mittens",
+    "copy-from": "mittens",
+    "type": "ARMOR",
+    "name": {
+      "str": "mittens",
+      "str_pl": "mittens"
+    }
+  },
+  {
+    "id": "nomex_gloves",
+    "copy-from": "nomex_gloves",
+    "type": "ARMOR",
+    "name": {
+      "str": "flame-resistant gloves",
+      "str_pl": "flame-resistant gloves"
+    }
+  },
+  {
+    "id": "santa_gloves",
+    "copy-from": "santa_gloves",
+    "type": "ARMOR",
+    "name": {
+      "str": "santa gloves",
+      "str_pl": "santa gloves"
+    }
+  },
+  {
+    "id": "sockmitts",
+    "copy-from": "sockmitts",
+    "type": "ARMOR",
+    "name": {
+      "str": "sock mitts",
+      "str_pl": "sock mitts"
+    }
+  },
+  {
+    "id": "wool_sockmitts",
+    "copy-from": "wool_sockmitts",
+    "type": "ARMOR",
+    "name": {
+      "str": "wool sock mitts",
+      "str_pl": "wool sock mitts"
+    }
+  },
+  {
+    "id": "nomex_sockmitts",
+    "copy-from": "nomex_sockmitts",
+    "type": "ARMOR",
+    "name": {
+      "str": "Nomex sock mitts",
+      "str_pl": "Nomex sock mitts"
+    }
+  },
+  {
+    "id": "stockings_tent_arms",
+    "copy-from": "stockings_tent_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "tentacle sleeves",
+      "str_pl": "tentacle sleeves"
+    }
+  },
+  {
+    "id": "winter_gloves_army",
+    "copy-from": "winter_gloves_army",
+    "type": "ARMOR",
+    "name": {
+      "str": "army winter gloves",
+      "str_pl": "army winter gloves"
+    }
+  },
+  {
+    "id": "gloves_white",
+    "copy-from": "gloves_white",
+    "type": "ARMOR",
+    "name": {
+      "str": "white gloves",
+      "str_pl": "white gloves"
+    }
+  },
+  {
+    "id": "gloves_skeleton",
+    "copy-from": "gloves_skeleton",
+    "type": "ARMOR",
+    "name": {
+      "str": "skeleton gloves",
+      "str_pl": "skeleton gloves"
+    }
+  },
+  {
+    "id": "gloves_golf",
+    "copy-from": "gloves_golf",
+    "type": "ARMOR",
+    "name": {
+      "str": "golfing gloves",
+      "str_pl": "golfing gloves"
+    }
+  },
+  {
+    "id": "gloves_eod",
+    "copy-from": "gloves_eod",
+    "type": "ARMOR",
+    "name": {
+      "str": "EOD gloves",
+      "str_pl": "EOD gloves"
+    }
+  },
+  {
+    "id": "lc_demi_gaunt",
+    "copy-from": "lc_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel demi-gauntlets",
+      "str_pl": "mild steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "xl_lc_demi_gaunt",
+    "copy-from": "xl_lc_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL mild steel demi-gauntlets",
+      "str_pl": "XL mild steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "mc_demi_gaunt",
+    "copy-from": "mc_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel demi-gauntlets",
+      "str_pl": "medium steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "xl_mc_demi_gaunt",
+    "copy-from": "xl_mc_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL medium steel demi-gauntlets",
+      "str_pl": "XL medium steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "hc_demi_gaunt",
+    "copy-from": "hc_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel demi-gauntlets",
+      "str_pl": "high steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "xl_hc_demi_gaunt",
+    "copy-from": "xl_hc_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL high steel demi-gauntlets",
+      "str_pl": "XL high steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "ch_demi_gaunt",
+    "copy-from": "ch_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "hardened steel demi-gauntlets",
+      "str_pl": "hardened steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "xl_ch_demi_gaunt",
+    "copy-from": "xl_ch_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL hardened steel demi-gauntlets",
+      "str_pl": "XL hardened steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "qt_demi_gaunt",
+    "copy-from": "qt_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered steel demi-gauntlets",
+      "str_pl": "tempered steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "xl_qt_demi_gaunt",
+    "copy-from": "xl_qt_demi_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL tempered steel demi-gauntlets",
+      "str_pl": "XL tempered steel demi-gauntlets"
+    }
+  },
+  {
+    "id": "lc_mitten_gaunt",
+    "copy-from": "lc_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel mitten gauntlets",
+      "str_pl": "mild steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "xl_lc_mitten_gaunt",
+    "copy-from": "xl_lc_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL mild steel mitten gauntlets",
+      "str_pl": "XL mild steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "mc_mitten_gaunt",
+    "copy-from": "mc_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel mitten gauntlets",
+      "str_pl": "medium steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "xl_mc_mitten_gaunt",
+    "copy-from": "xl_mc_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL medium steel mitten gauntlets",
+      "str_pl": "XL medium steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "hc_mitten_gaunt",
+    "copy-from": "hc_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel mitten gauntlets",
+      "str_pl": "high steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "xl_hc_mitten_gaunt",
+    "copy-from": "xl_hc_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL high steel mitten gauntlets",
+      "str_pl": "XL high steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "ch_mitten_gaunt",
+    "copy-from": "ch_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "hardened steel mitten gauntlets",
+      "str_pl": "hardened steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "xl_ch_mitten_gaunt",
+    "copy-from": "xl_ch_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL hardened steel mitten gauntlets",
+      "str_pl": "XL hardened steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "qt_mitten_gaunt",
+    "copy-from": "qt_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered steel mitten gauntlets",
+      "str_pl": "tempered steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "xl_qt_mitten_gaunt",
+    "copy-from": "xl_qt_mitten_gaunt",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL tempered steel mitten gauntlets",
+      "str_pl": "XL tempered steel mitten gauntlets"
+    }
+  },
+  {
+    "id": "gloves_airsoft",
+    "copy-from": "gloves_airsoft",
+    "type": "ARMOR",
+    "name": {
+      "str": "airsoft gloves",
+      "str_pl": "airsoft gloves"
+    }
+  },
+  {
+    "id": "armguard_lc_brigandine",
+    "copy-from": "armguard_lc_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel splint arm guards",
+      "str_pl": "mild steel splint arm guards"
+    }
+  },
+  {
+    "id": "armguard_mc_brigandine",
+    "copy-from": "armguard_mc_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel splint arm guards",
+      "str_pl": "medium steel splint arm guards"
+    }
+  },
+  {
+    "id": "armguard_hc_brigandine",
+    "copy-from": "armguard_hc_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel splint arm guards",
+      "str_pl": "high steel splint arm guards"
+    }
+  },
+  {
+    "id": "armguard_ch_brigandine",
+    "copy-from": "armguard_ch_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened splint arm guards",
+      "str_pl": "case hardened splint arm guards"
+    }
+  },
+  {
+    "id": "armguard_qt_brigandine",
+    "copy-from": "armguard_qt_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered splint arm guards",
+      "str_pl": "tempered splint arm guards"
+    }
+  },
+  {
+    "id": "legguard_lc_brigandine",
+    "copy-from": "legguard_lc_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel splint leg guards",
+      "str_pl": "mild steel splint leg guards"
+    }
+  },
+  {
+    "id": "legguard_mc_brigandine",
+    "copy-from": "legguard_mc_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel splint leg guards",
+      "str_pl": "medium steel splint leg guards"
+    }
+  },
+  {
+    "id": "legguard_hc_brigandine",
+    "copy-from": "legguard_hc_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel splint leg guards",
+      "str_pl": "high steel splint leg guards"
+    }
+  },
+  {
+    "id": "legguard_ch_brigandine",
+    "copy-from": "legguard_ch_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened splint leg guards",
+      "str_pl": "case hardened splint leg guards"
+    }
+  },
+  {
+    "id": "legguard_qt_brigandine",
+    "copy-from": "legguard_qt_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered splint leg guards",
+      "str_pl": "tempered splint leg guards"
+    }
+  },
+  {
+    "id": "lc_vambrace_brigandine",
+    "copy-from": "lc_vambrace_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel splint vambraces",
+      "str_pl": "mild steel vambraces"
+    }
+  },
+  {
+    "id": "mc_vambrace_brigandine",
+    "copy-from": "mc_vambrace_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel splint vambraces",
+      "str_pl": "medium steel splint vambraces"
+    }
+  },
+  {
+    "id": "hc_vambrace_brigandine",
+    "copy-from": "hc_vambrace_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel splint vambraces",
+      "str_pl": "high steel splint vambraces"
+    }
+  },
+  {
+    "id": "ch_vambrace_brigandine",
+    "copy-from": "ch_vambrace_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened splint vambraces",
+      "str_pl": "case hardened splint vambraces"
+    }
+  },
+  {
+    "id": "qt_vambrace_brigandine",
+    "copy-from": "qt_vambrace_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered splint vambraces",
+      "str_pl": "tempered splint vambraces"
+    }
+  },
+  {
+    "id": "lc_greaves_brigandine",
+    "copy-from": "lc_greaves_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel splint greaves",
+      "str_pl": "mild steel splint greaves"
+    }
+  },
+  {
+    "id": "mc_greaves_brigandine",
+    "copy-from": "mc_greaves_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel splint greaves",
+      "str_pl": "medium steel splint greaves"
+    }
+  },
+  {
+    "id": "hc_greaves_brigandine",
+    "copy-from": "hc_greaves_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel splint greaves",
+      "str_pl": "high steel splint greaves"
+    }
+  },
+  {
+    "id": "ch_greaves_brigandine",
+    "copy-from": "ch_greaves_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened splint greaves",
+      "str_pl": "case hardened splint greaves"
+    }
+  },
+  {
+    "id": "qt_greaves_brigandine",
+    "copy-from": "qt_greaves_brigandine",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered splint greaves",
+      "str_pl": "tempered splint greaves"
+    }
+  },
+  {
+    "id": "lc_brigandine_hands",
+    "copy-from": "lc_brigandine_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel brigandine gloves",
+      "str_pl": "mild steel brigandine gloves"
+    }
+  },
+  {
+    "id": "mc_brigandine_hands",
+    "copy-from": "mc_brigandine_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel brigandine gloves",
+      "str_pl": "medium steel brigandine gloves"
+    }
+  },
+  {
+    "id": "hc_brigandine_hands",
+    "copy-from": "hc_brigandine_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel brigandine gloves",
+      "str_pl": "high steel brigandine gloves"
+    }
+  },
+  {
+    "id": "ch_brigandine_hands",
+    "copy-from": "ch_brigandine_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened brigandine gloves",
+      "str_pl": "case hardened brigandine gloves"
+    }
+  },
+  {
+    "id": "qt_brigandine_hands",
+    "copy-from": "qt_brigandine_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered brigandine gloves",
+      "str_pl": "tempered brigandine gloves"
+    }
+  },
+  {
+    "id": "lc_knee_guards",
+    "copy-from": "lc_knee_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel knee guards",
+      "str_pl": "mild steel knee guards"
+    }
+  },
+  {
+    "id": "mc_knee_guards",
+    "copy-from": "mc_knee_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel knee guards",
+      "str_pl": "medium steel knee guards"
+    }
+  },
+  {
+    "id": "hc_knee_guards",
+    "copy-from": "hc_knee_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel knee guards",
+      "str_pl": "high steel knee guards"
+    }
+  },
+  {
+    "id": "ch_knee_guards",
+    "copy-from": "ch_knee_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened knee guards",
+      "str_pl": "case hardened steel knee guards"
+    }
+  },
+  {
+    "id": "qt_knee_guards",
+    "copy-from": "qt_knee_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered knee guards",
+      "str_pl": "tempered knee guards"
+    }
+  },
+  {
+    "id": "lc_elbow_guards",
+    "copy-from": "lc_elbow_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel elbow guards",
+      "str_pl": "mild steel elbow guards"
+    }
+  },
+  {
+    "id": "mc_elbow_guards",
+    "copy-from": "mc_elbow_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel elbow guards",
+      "str_pl": "medium steel elbow guards"
+    }
+  },
+  {
+    "id": "hc_elbow_guards",
+    "copy-from": "hc_elbow_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel elbow guards",
+      "str_pl": "high steel elbow guards"
+    }
+  },
+  {
+    "id": "ch_elbow_guards",
+    "copy-from": "ch_elbow_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened elbow guards",
+      "str_pl": "case hardened elbow guards"
+    }
+  },
+  {
+    "id": "qt_elbow_guards",
+    "copy-from": "qt_elbow_guards",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered elbow guards",
+      "str_pl": "tempered elbow guards"
+    }
+  },
+  {
+    "id": "lc_shoulder_guards",
+    "copy-from": "lc_shoulder_guards",
+    "type": "GENERIC",
+    "name": {
+      "str": "mild steel shoulder guards",
+      "str_pl": "mild steel shoulder guards"
+    }
+  },
+  {
+    "id": "mc_shoulder_guards",
+    "copy-from": "mc_shoulder_guards",
+    "type": "GENERIC",
+    "name": {
+      "str": "medium steel shoulder guards",
+      "str_pl": "medium steel shoulder guards"
+    }
+  },
+  {
+    "id": "hc_shoulder_guards",
+    "copy-from": "hc_shoulder_guards",
+    "type": "GENERIC",
+    "name": {
+      "str": "high steel shoulder guards",
+      "str_pl": "high steel shoulder guards"
+    }
+  },
+  {
+    "id": "ch_shoulder_guards",
+    "copy-from": "ch_shoulder_guards",
+    "type": "GENERIC",
+    "name": {
+      "str": "case hardened shoulder guards",
+      "str_pl": "case hardened shoulder guards"
+    }
+  },
+  {
+    "id": "qt_shoulder_guards",
+    "copy-from": "qt_shoulder_guards",
+    "type": "GENERIC",
+    "name": {
+      "str": "tempered shoulder guards",
+      "str_pl": "tempered shoulder guards"
+    }
+  },
+  {
+    "id": "trunks",
+    "copy-from": "trunks",
+    "type": "ARMOR",
+    "name": {
+      "str": "swimming trunks",
+      "str_pl": "swimming trunks"
+    }
+  },
+  {
+    "id": "wetsuit_booties",
+    "copy-from": "wetsuit_booties",
+    "type": "ARMOR",
+    "name": {
+      "str": "swimming booties",
+      "str_pl": "swimming booties"
+    }
+  },
+  {
+    "id": "wetsuit_booties_thick",
+    "copy-from": "wetsuit_booties_thick",
+    "type": "ARMOR",
+    "name": {
+      "str": "thick swimming booties",
+      "str_pl": "thick swimming booties"
+    }
+  },
+  {
+    "id": "goggles_swim",
+    "copy-from": "goggles_swim",
+    "type": "ARMOR",
+    "name": {
+      "str": "swim goggles",
+      "str_pl": "swim goggles"
+    }
+  },
+  {
+    "id": "wetsuit_gloves",
+    "copy-from": "wetsuit_gloves",
+    "type": "ARMOR",
+    "name": {
+      "str": "swimming gloves",
+      "str_pl": "swimming gloves"
+    }
+  },
+  {
+    "id": "wetsuit_gloves_thick",
+    "copy-from": "wetsuit_gloves_thick",
+    "type": "ARMOR",
+    "name": {
+      "str": "thick swimming gloves",
+      "str_pl": "thick swimming gloves"
+    }
+  },
+  {
+    "id": "legrig",
+    "copy-from": "legrig",
+    "type": "ARMOR",
+    "name": {
+      "str": "drop leg pouches",
+      "str_pl": "drop leg pouches"
+    }
+  },
+  {
+    "id": "saddlebag",
+    "copy-from": "saddlebag",
+    "type": "ARMOR",
+    "name": {
+      "str": "saddle bags",
+      "str_pl": "saddle bags"
+    }
+  },
+  {
+    "id": "bead_ear",
+    "copy-from": "bead_ear",
+    "type": "ARMOR",
+    "name": {
+      "str": "beaded earrings",
+      "str_pl": "beaded earrings"
+    }
+  },
+  {
+    "id": "copper_ear",
+    "copy-from": "copper_ear",
+    "type": "ARMOR",
+    "name": {
+      "str": "copper earrings",
+      "str_pl": "copper earrings"
+    }
+  },
+  {
+    "id": "cufflinks",
+    "copy-from": "cufflinks",
+    "type": "ARMOR",
+    "name": {
+      "str": "cufflinks",
+      "str_pl": "cufflinks"
+    }
+  },
+  {
+    "id": "cufflinks_intricate",
+    "copy-from": "cufflinks_intricate",
+    "type": "ARMOR",
+    "name": {
+      "str": "intricate cufflinks",
+      "str_pl": "intricate cufflinks"
+    }
+  },
+  {
+    "id": "gold_ear",
+    "copy-from": "gold_ear",
+    "type": "ARMOR",
+    "name": {
+      "str": "gold earrings",
+      "str_pl": "gold earrings"
+    }
+  },
+  {
+    "id": "silver_ear",
+    "copy-from": "silver_ear",
+    "type": "ARMOR",
+    "name": {
+      "str": "silver earrings",
+      "str_pl": "silver earrings"
+    }
+  },
+  {
+    "id": "platinum_ear",
+    "copy-from": "platinum_ear",
+    "type": "ARMOR",
+    "name": {
+      "str": "platinum earrings",
+      "str_pl": "platinum earrings"
+    }
+  },
+  {
+    "id": "fur_cat_ears",
+    "copy-from": "fur_cat_ears",
+    "type": "ARMOR",
+    "name": {
+      "str": "fuzzy cat ears",
+      "str_pl": "fuzzy cat ears"
+    }
+  },
+  {
+    "id": "faux_fur_cat_ears",
+    "copy-from": "faux_fur_cat_ears",
+    "type": "ARMOR",
+    "name": {
+      "str": "faux fur cat ears",
+      "str_pl": "faux fur cat ears"
+    }
+  },
+  {
+    "id": "leather_cat_ears",
+    "copy-from": "leather_cat_ears",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather cat ears",
+      "str_pl": "leather cat ears"
+    }
+  },
+  {
+    "id": "diamond_gold_earring",
+    "copy-from": "diamond_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "diamond and gold earrings",
+      "str_pl": "diamond and gold earrings"
+    }
+  },
+  {
+    "id": "garnet_gold_earring",
+    "copy-from": "garnet_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "garnet and gold earrings",
+      "str_pl": "garnet and gold earrings"
+    }
+  },
+  {
+    "id": "amethyst_gold_earring",
+    "copy-from": "amethyst_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "amethyst and gold earrings",
+      "str_pl": "amethyst and gold earrings"
+    }
+  },
+  {
+    "id": "aquamarine_gold_earring",
+    "copy-from": "aquamarine_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "aquamarine and gold earrings",
+      "str_pl": "aquamarine and gold earrings"
+    }
+  },
+  {
+    "id": "emerald_gold_earring",
+    "copy-from": "emerald_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "emerald and gold earrings",
+      "str_pl": "emerald and gold earrings"
+    }
+  },
+  {
+    "id": "alexandrite_gold_earring",
+    "copy-from": "alexandrite_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "alexandrite and gold earrings",
+      "str_pl": "alexandrite and gold earrings"
+    }
+  },
+  {
+    "id": "ruby_gold_earring",
+    "copy-from": "ruby_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "ruby and gold earrings",
+      "str_pl": "ruby and gold earrings"
+    }
+  },
+  {
+    "id": "peridot_gold_earring",
+    "copy-from": "peridot_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "peridot and gold earrings",
+      "str_pl": "peridot and gold earrings"
+    }
+  },
+  {
+    "id": "sapphire_gold_earring",
+    "copy-from": "sapphire_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "sapphire and gold earrings",
+      "str_pl": "sapphire and gold earrings"
+    }
+  },
+  {
+    "id": "tourmaline_gold_earring",
+    "copy-from": "tourmaline_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "tourmaline and gold earrings",
+      "str_pl": "tourmaline and gold earrings"
+    }
+  },
+  {
+    "id": "citrine_gold_earring",
+    "copy-from": "citrine_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "citrine and gold earrings",
+      "str_pl": "citrine and gold earrings"
+    }
+  },
+  {
+    "id": "blue_topaz_gold_earring",
+    "copy-from": "blue_topaz_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "blue topaz and gold earrings",
+      "str_pl": "blue topaz and gold earrings"
+    }
+  },
+  {
+    "id": "opal_gold_earring",
+    "copy-from": "opal_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "opal and gold earrings",
+      "str_pl": "opal and gold earrings"
+    }
+  },
+  {
+    "id": "pearl_gold_earring",
+    "copy-from": "pearl_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "pearl and gold earrings",
+      "str_pl": "pearl and gold earrings"
+    }
+  },
+  {
+    "id": "onyx_gold_earring",
+    "copy-from": "onyx_gold_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "onyx and gold earrings",
+      "str_pl": "onyx and gold earrings"
+    }
+  },
+  {
+    "id": "diamond_silver_earring",
+    "copy-from": "diamond_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "diamond and silver earrings",
+      "str_pl": "diamond and silver earrings"
+    }
+  },
+  {
+    "id": "garnet_silver_earring",
+    "copy-from": "garnet_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "garnet and silver earrings",
+      "str_pl": "garnet and silver earrings"
+    }
+  },
+  {
+    "id": "amethyst_silver_earring",
+    "copy-from": "amethyst_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "amethyst and silver earrings",
+      "str_pl": "amethyst and silver earrings"
+    }
+  },
+  {
+    "id": "aquamarine_silver_earring",
+    "copy-from": "aquamarine_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "aquamarine and silver earrings",
+      "str_pl": "aquamarine and silver earrings"
+    }
+  },
+  {
+    "id": "emerald_silver_earring",
+    "copy-from": "emerald_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "emerald and silver earrings",
+      "str_pl": "emerald and silver earrings"
+    }
+  },
+  {
+    "id": "alexandrite_silver_earring",
+    "copy-from": "alexandrite_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "alexandrite and silver earrings",
+      "str_pl": "alexandrite and silver earrings"
+    }
+  },
+  {
+    "id": "ruby_silver_earring",
+    "copy-from": "ruby_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "ruby and silver earrings",
+      "str_pl": "ruby and silver earrings"
+    }
+  },
+  {
+    "id": "peridot_silver_earring",
+    "copy-from": "peridot_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "peridot and silver earrings",
+      "str_pl": "peridot and silver earrings"
+    }
+  },
+  {
+    "id": "sapphire_silver_earring",
+    "copy-from": "sapphire_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "sapphire and silver earrings",
+      "str_pl": "sapphire and silver earrings"
+    }
+  },
+  {
+    "id": "tourmaline_silver_earring",
+    "copy-from": "tourmaline_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "tourmaline and silver earrings",
+      "str_pl": "tourmaline and silver earrings"
+    }
+  },
+  {
+    "id": "citrine_silver_earring",
+    "copy-from": "citrine_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "citrine and silver earrings",
+      "str_pl": "citrine and silver earrings"
+    }
+  },
+  {
+    "id": "blue_topaz_silver_earring",
+    "copy-from": "blue_topaz_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "blue topaz and silver earrings",
+      "str_pl": "blue topaz and silver earrings"
+    }
+  },
+  {
+    "id": "opal_silver_earring",
+    "copy-from": "opal_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "opal and silver earrings",
+      "str_pl": "opal and silver earrings"
+    }
+  },
+  {
+    "id": "pearl_silver_earring",
+    "copy-from": "pearl_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "pearl and silver earrings",
+      "str_pl": "pearl and silver earrings"
+    }
+  },
+  {
+    "id": "onyx_silver_earring",
+    "copy-from": "onyx_silver_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "onyx and silver earrings",
+      "str_pl": "onyx and silver earrings"
+    }
+  },
+  {
+    "id": "diamond_platinum_earring",
+    "copy-from": "diamond_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "diamond and platinum earrings",
+      "str_pl": "diamond and platinum earrings"
+    }
+  },
+  {
+    "id": "garnet_platinum_earring",
+    "copy-from": "garnet_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "garnet and platinum earrings",
+      "str_pl": "garnet and platinum earrings"
+    }
+  },
+  {
+    "id": "amethyst_platinum_earring",
+    "copy-from": "amethyst_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "amethyst and platinum earrings",
+      "str_pl": "amethyst and platinum earrings"
+    }
+  },
+  {
+    "id": "aquamarine_platinum_earring",
+    "copy-from": "aquamarine_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "aquamarine and platinum earrings",
+      "str_pl": "aquamarine and platinum earrings"
+    }
+  },
+  {
+    "id": "emerald_platinum_earring",
+    "copy-from": "emerald_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "emerald and platinum earrings",
+      "str_pl": "emerald and platinum earrings"
+    }
+  },
+  {
+    "id": "alexandrite_platinum_earring",
+    "copy-from": "alexandrite_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "alexandrite and platinum earrings",
+      "str_pl": "alexandrite and platinum earrings"
+    }
+  },
+  {
+    "id": "ruby_platinum_earring",
+    "copy-from": "ruby_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "ruby and platinum earrings",
+      "str_pl": "ruby and platinum earrings"
+    }
+  },
+  {
+    "id": "peridot_platinum_earring",
+    "copy-from": "peridot_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "peridot and platinum earrings",
+      "str_pl": "peridot and platinum earrings"
+    }
+  },
+  {
+    "id": "sapphire_platinum_earring",
+    "copy-from": "sapphire_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "sapphire and platinum earrings",
+      "str_pl": "sapphire and platinum earrings"
+    }
+  },
+  {
+    "id": "tourmaline_platinum_earring",
+    "copy-from": "tourmaline_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "tourmaline and platinum earrings",
+      "str_pl": "tourmaline and platinum earrings"
+    }
+  },
+  {
+    "id": "citrine_platinum_earring",
+    "copy-from": "citrine_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "citrine and platinum earrings",
+      "str_pl": "citrine and platinum earrings"
+    }
+  },
+  {
+    "id": "blue_topaz_platinum_earring",
+    "copy-from": "blue_topaz_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "blue topaz and platinum earrings",
+      "str_pl": "blue topaz and platinum earrings"
+    }
+  },
+  {
+    "id": "opal_platinum_earring",
+    "copy-from": "opal_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "opal and platinum earrings",
+      "str_pl": "opal and platinum earrings"
+    }
+  },
+  {
+    "id": "pearl_platinum_earring",
+    "copy-from": "pearl_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "pearl and platinum earrings",
+      "str_pl": "pearl and platinum earrings"
+    }
+  },
+  {
+    "id": "onyx_platinum_earring",
+    "copy-from": "onyx_platinum_earring",
+    "type": "ARMOR",
+    "name": {
+      "str": "onyx and platinum earrings",
+      "str_pl": "onyx and platinum earrings"
+    }
+  },
+  {
+    "id": "2byarm_guard",
+    "copy-from": "2byarm_guard",
+    "type": "ARMOR",
+    "name": {
+      "str": "2-by-arm guards",
+      "str_pl": "2-by-arm guards"
+    }
+  },
+  {
+    "id": "carpet_armguards",
+    "copy-from": "carpet_armguards",
+    "type": "ARMOR",
+    "name": {
+      "str": "carpet arm guards",
+      "str_pl": "carpet arm guards"
+    }
+  },
+  {
+    "id": "carpet_bracers",
+    "copy-from": "carpet_bracers",
+    "type": "ARMOR",
+    "name": {
+      "str": "carpet bracers",
+      "str_pl": "carpet bracers"
+    }
+  },
+  {
+    "id": "armguard_chitin",
+    "copy-from": "armguard_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "chitin arm guards",
+      "str_pl": "chitin arm guards"
+    }
+  },
+  {
+    "id": "xl_armguard_chitin",
+    "copy-from": "xl_armguard_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL chitin arm guards",
+      "str_pl": "XL chitin arm guards"
+    }
+  },
+  {
+    "id": "xs_armguard_chitin",
+    "copy-from": "xs_armguard_chitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS chitin arm guards",
+      "str_pl": "XS chitin arm guards"
+    }
+  },
+  {
+    "id": "armguard_acidchitin",
+    "copy-from": "armguard_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "biosilicified chitin arm guards",
+      "str_pl": "biosilicified chitin arm guards"
+    }
+  },
+  {
+    "id": "xl_armguard_acidchitin",
+    "copy-from": "xl_armguard_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL biosilicified chitin arm guards",
+      "str_pl": "XL biosilicified chitin arm guards"
+    }
+  },
+  {
+    "id": "xs_armguard_acidchitin",
+    "copy-from": "xs_armguard_acidchitin",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS biosilicified chitin arm guards",
+      "str_pl": "XS biosilicified chitin arm guards"
+    }
+  },
+  {
+    "id": "cloth_arms_padded",
+    "copy-from": "cloth_arms_padded",
+    "type": "ARMOR",
+    "name": {
+      "str": "cloth-padded sleeves",
+      "str_pl": "cloth-padded sleeves"
+    }
+  },
+  {
+    "id": "armguard_hard",
+    "copy-from": "armguard_hard",
+    "type": "ARMOR",
+    "name": {
+      "str": "hard arm guards",
+      "str_pl": "hard arm guards"
+    }
+  },
+  {
+    "id": "xl_armguard_hard",
+    "copy-from": "xl_armguard_hard",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL hard arm guards",
+      "str_pl": "XL hard arm guards"
+    }
+  },
+  {
+    "id": "xs_armguard_hard",
+    "copy-from": "xs_armguard_hard",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS hard arm guards",
+      "str_pl": "XS hard arm guards"
+    }
+  },
+  {
+    "id": "armguard_larmor",
+    "copy-from": "armguard_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather arm guards",
+      "str_pl": "leather arm guards"
+    }
+  },
+  {
+    "id": "xl_armguard_larmor",
+    "copy-from": "xl_armguard_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL leather arm guards",
+      "str_pl": "XL leather arm guards"
+    }
+  },
+  {
+    "id": "xs_armguard_larmor",
+    "copy-from": "xs_armguard_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS leather arm guards",
+      "str_pl": "XS leather arm guards"
+    }
+  },
+  {
+    "id": "armguard_lightplate",
+    "copy-from": "armguard_lightplate",
+    "type": "ARMOR",
+    "name": {
+      "str": "steel arm guards",
+      "str_pl": "steel arm guards"
+    }
+  },
+  {
+    "id": "xl_armguard_lightplate",
+    "copy-from": "xl_armguard_lightplate",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL steel arm guards",
+      "str_pl": "XL steel arm guards"
+    }
+  },
+  {
+    "id": "xs_armguard_lightplate",
+    "copy-from": "xs_armguard_lightplate",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS steel arm guards",
+      "str_pl": "XS steel arm guards"
+    }
+  },
+  {
+    "id": "armguard_metal",
+    "copy-from": "armguard_metal",
+    "type": "ARMOR",
+    "name": {
+      "str": "sheet metal arm guards",
+      "str_pl": "sheet metal arm guards"
+    }
+  },
+  {
+    "id": "ch_armguard_metal",
+    "copy-from": "ch_armguard_metal",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened sheet metal arm guards",
+      "str_pl": "case hardened sheet metal arm guards"
+    }
+  },
+  {
+    "id": "armguard_metal_sheets_bracer",
+    "copy-from": "armguard_metal_sheets_bracer",
+    "type": "ARMOR",
+    "name": {
+      "str": "sheet metal bracers",
+      "str_pl": "sheet metal bracers"
+    }
+  },
+  {
+    "id": "ch_armguard_metal_sheets_bracer",
+    "copy-from": "ch_armguard_metal_sheets_bracer",
+    "type": "ARMOR",
+    "name": {
+      "str": "hardened sheet metal bracers",
+      "str_pl": "hardened sheet metal bracers"
+    }
+  },
+  {
+    "id": "armguard_metal_sheets_shoulders",
+    "copy-from": "armguard_metal_sheets_shoulders",
+    "type": "ARMOR",
+    "name": {
+      "str": "sheet metal pauldrons",
+      "str_pl": "sheet metal pauldrons"
+    }
+  },
+  {
+    "id": "ch_armguard_metal_sheets_shoulders",
+    "copy-from": "ch_armguard_metal_sheets_shoulders",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened sheet metal pauldrons",
+      "str_pl": "case hardened sheet metal pauldrons"
+    }
+  },
+  {
+    "id": "armguard_metal_sheets_elbows",
+    "copy-from": "armguard_metal_sheets_elbows",
+    "type": "ARMOR",
+    "name": {
+      "str": "sheet metal elbow guards",
+      "str_pl": "sheet metal elbow guards"
+    }
+  },
+  {
+    "id": "ch_armguard_metal_sheets_elbows",
+    "copy-from": "ch_armguard_metal_sheets_elbows",
+    "type": "ARMOR",
+    "name": {
+      "str": "case hardened sheet metal elbow guards",
+      "str_pl": "case hardened sheet metal elbow guards"
+    }
+  },
+  {
+    "id": "xl_armguard_metal",
+    "copy-from": "xl_armguard_metal",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL sheet metal arm guards",
+      "str_pl": "XL sheet metal arm guards"
+    }
+  },
+  {
+    "id": "xs_armguard_metal",
+    "copy-from": "xs_armguard_metal",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS sheet metal arm guards",
+      "str_pl": "XS sheet metal arm guards"
+    }
+  },
+  {
+    "id": "armguard_paper",
+    "copy-from": "armguard_paper",
+    "type": "ARMOR",
+    "name": {
+      "str": "paper arm guards",
+      "str_pl": "paper arm guards"
+    }
+  },
+  {
+    "id": "improvised_armguard_tire",
+    "copy-from": "improvised_armguard_tire",
+    "type": "ARMOR",
+    "name": {
+      "str": "improvised tire arm guards",
+      "str_pl": "improvised tire arm guards"
+    }
+  },
+  {
+    "id": "armguard_scrap",
+    "copy-from": "armguard_scrap",
+    "type": "ARMOR",
+    "name": {
+      "str": "scrap arm guards",
+      "str_pl": "scrap arm guards"
+    }
+  },
+  {
+    "id": "xl_armguard_scrap",
+    "copy-from": "xl_armguard_scrap",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL scrap arm guards",
+      "str_pl": "XL scrap arm guards"
+    }
+  },
+  {
+    "id": "xs_armguard_scrap",
+    "copy-from": "xs_armguard_scrap",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS scrap arm guards",
+      "str_pl": "XS scrap arm guards"
+    }
+  },
+  {
+    "id": "armguard_tire",
+    "copy-from": "armguard_tire",
+    "type": "ARMOR",
+    "name": {
+      "str": "tire arm guards",
+      "str_pl": "tire arm guards"
+    }
+  },
+  {
+    "id": "xl_armguard_tire",
+    "copy-from": "xl_armguard_tire",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL tire arm guards",
+      "str_pl": "XL tire arm guards"
+    }
+  },
+  {
+    "id": "xs_armguard_tire",
+    "copy-from": "xs_armguard_tire",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS tire arm guards",
+      "str_pl": "XS tire arm guards"
+    }
+  },
+  {
+    "id": "armguard_soft",
+    "copy-from": "armguard_soft",
+    "type": "ARMOR",
+    "name": {
+      "str": "neoprene arm sleeves",
+      "str_pl": "neoprene arm sleeves"
+    }
+  },
+  {
+    "id": "xl_armguard_soft",
+    "copy-from": "xl_armguard_soft",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL neoprene arm sleeves",
+      "str_pl": "XL neoprene arm sleeves"
+    }
+  },
+  {
+    "id": "xs_armguard_soft",
+    "copy-from": "xs_armguard_soft",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS neoprene arm sleeves",
+      "str_pl": "XS neoprene arm sleeves"
+    }
+  },
+  {
+    "id": "gambeson_sleeve",
+    "copy-from": "gambeson_sleeve",
+    "type": "ARMOR",
+    "name": {
+      "str": "gambeson sleeves",
+      "str_pl": "gambeson sleeves"
+    }
+  },
+  {
+    "id": "xl_gambeson_sleeve",
+    "copy-from": "xl_gambeson_sleeve",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL gambeson sleeves",
+      "str_pl": "XL gambeson sleeves"
+    }
+  },
+  {
+    "id": "xs_gambeson_sleeve",
+    "copy-from": "xs_gambeson_sleeve",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS gambeson sleeves",
+      "str_pl": "XS gambeson sleeves"
+    }
+  },
+  {
+    "id": "k_gambeson_sleeve",
+    "copy-from": "k_gambeson_sleeve",
+    "type": "ARMOR",
+    "name": {
+      "str": "Kevlar gambeson sleeves",
+      "str_pl": "Kevlar gambeson sleeves"
+    }
+  },
+  {
+    "id": "xl_k_gambeson_sleeve",
+    "copy-from": "xl_k_gambeson_sleeve",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL Kevlar gambeson sleeves",
+      "str_pl": "XL Kevlar gambeson sleeves"
+    }
+  },
+  {
+    "id": "xs_k_gambeson_sleeve",
+    "copy-from": "xs_k_gambeson_sleeve",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS Kevlar gambeson sleeves",
+      "str_pl": "XS Kevlar gambeson sleeves"
+    }
+  },
+  {
+    "id": "chainmail_junk_arms",
+    "copy-from": "chainmail_junk_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "chainmail sleeves",
+      "str_pl": "chainmail sleeves"
+    }
+  },
+  {
+    "id": "lc_chainmail_arms",
+    "copy-from": "lc_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "mild steel chainmail sleeves",
+      "str_pl": "mild steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xl_lc_chainmail_arms",
+    "copy-from": "xl_lc_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL mild steel chainmail sleeves",
+      "str_pl": "XL mild steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xs_lc_chainmail_arms",
+    "copy-from": "xs_lc_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS mild steel chainmail sleeves",
+      "str_pl": "XS mild steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "mc_chainmail_arms",
+    "copy-from": "mc_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "medium steel chainmail sleeves",
+      "str_pl": "medium steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xl_mc_chainmail_arms",
+    "copy-from": "xl_mc_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL medium steel chainmail sleeves",
+      "str_pl": "XL medium steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xs_mc_chainmail_arms",
+    "copy-from": "xs_mc_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS medium steel chainmail sleeves",
+      "str_pl": "XS medium steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "hc_chainmail_arms",
+    "copy-from": "hc_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "high steel chainmail sleeves",
+      "str_pl": "high steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xl_hc_chainmail_arms",
+    "copy-from": "xl_hc_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL high steel chainmail sleeves",
+      "str_pl": "XL high steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xs_hc_chainmail_arms",
+    "copy-from": "xs_hc_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS high steel chainmail sleeves",
+      "str_pl": "XS high steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "ch_chainmail_arms",
+    "copy-from": "ch_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "hardened steel chainmail sleeves",
+      "str_pl": "hardened steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xl_ch_chainmail_arms",
+    "copy-from": "xl_ch_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL hardened steel chainmail sleeves",
+      "str_pl": "XL hardened steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xs_ch_chainmail_arms",
+    "copy-from": "xs_ch_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS hardened steel chainmail sleeves",
+      "str_pl": "XS hardened steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "qt_chainmail_arms",
+    "copy-from": "qt_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "tempered steel chainmail sleeves",
+      "str_pl": "tempered steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xl_qt_chainmail_arms",
+    "copy-from": "xl_qt_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL tempered steel chainmail sleeves",
+      "str_pl": "XL tempered steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "xs_qt_chainmail_arms",
+    "copy-from": "xs_qt_chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS tempered steel chainmail sleeves",
+      "str_pl": "XS tempered steel chainmail sleeves"
+    }
+  },
+  {
+    "id": "elbow_pads",
+    "copy-from": "elbow_pads",
+    "type": "ARMOR",
+    "name": {
+      "str": "elbow pads",
+      "str_pl": "elbow pads"
+    }
+  },
+  {
+    "id": "armguard_bronze",
+    "copy-from": "armguard_bronze",
+    "type": "ARMOR",
+    "name": {
+      "str": "bronze vambraces",
+      "str_pl": "bronze vambraces"
+    }
+  },
+  {
+    "id": "xl_armguard_bronze",
+    "copy-from": "xl_armguard_bronze",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL bronze vambraces",
+      "str_pl": "XL bronze vambraces"
+    }
+  },
+  {
+    "id": "xs_armguard_bronze",
+    "copy-from": "xs_armguard_bronze",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS bronze vambraces",
+      "str_pl": "XS bronze vambraces"
+    }
+  },
+  {
+    "id": "vambrace_larmor",
+    "copy-from": "vambrace_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "leather vambraces",
+      "str_pl": "leather vambraces"
+    }
+  },
+  {
+    "id": "xl_vambrace_larmor",
+    "copy-from": "xl_vambrace_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL leather vambraces",
+      "str_pl": "XL leather vambraces"
+    }
+  },
+  {
+    "id": "xs_vambrace_larmor",
+    "copy-from": "xs_vambrace_larmor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS leather vambraces",
+      "str_pl": "XS leather vambraces"
+    }
+  },
+  {
+    "id": "armguard_cut_resistant",
+    "copy-from": "armguard_cut_resistant",
+    "type": "ARMOR",
+    "name": {
+      "str": "cut-resistant arm sleeves",
+      "str_pl": "cut-resistant arm sleeves"
+    }
+  },
+  {
+    "id": "armor_riot_arm",
+    "copy-from": "armor_riot_arm",
+    "type": "ARMOR",
+    "name": {
+      "str": "riot arm guards",
+      "str_pl": "riot arm guards"
+    }
+  },
+  {
+    "id": "eclipse_glasses",
+    "copy-from": "eclipse_glasses",
+    "type": "ARMOR",
+    "name": {
+      "str": "eclipse glasses",
+      "str_pl": "eclipse glasses"
+    }
+  },
+  {
+    "id": "fancy_sunglasses",
+    "copy-from": "fancy_sunglasses",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish sunglasses",
+      "str_pl": "stylish sunglasses"
+    }
+  },
+  {
+    "id": "fitover_sunglasses",
+    "copy-from": "fitover_sunglasses",
+    "type": "ARMOR",
+    "name": {
+      "str": "fit-over sunglasses",
+      "str_pl": "fit-over sunglasses"
+    }
+  },
+  {
+    "id": "glasses_bal",
+    "copy-from": "glasses_bal",
+    "type": "ARMOR",
+    "name": {
+      "str": "ballistic glasses",
+      "str_pl": "ballistic glasses"
+    }
+  },
+  {
+    "id": "glasses_bifocal",
+    "copy-from": "glasses_bifocal",
+    "type": "ARMOR",
+    "name": {
+      "str": "bifocal glasses",
+      "str_pl": "bifocal glasses"
+    }
+  },
+  {
+    "id": "glasses_eye",
+    "copy-from": "glasses_eye",
+    "type": "ARMOR",
+    "name": {
+      "str": "eyeglasses",
+      "str_pl": "eyeglasses"
+    }
+  },
+  {
+    "id": "glasses_reading",
+    "copy-from": "glasses_reading",
+    "type": "ARMOR",
+    "name": {
+      "str": "reading glasses",
+      "str_pl": "reading glasses"
+    }
+  },
+  {
+    "id": "glasses_safety",
+    "copy-from": "glasses_safety",
+    "type": "ARMOR",
+    "name": {
+      "str": "safety glasses",
+      "str_pl": "safety glasses"
+    }
+  },
+  {
+    "id": "glass_goggles",
+    "copy-from": "glass_goggles",
+    "type": "ARMOR",
+    "name": {
+      "str": "glass goggles",
+      "str_pl": "glass goggles"
+    }
+  },
+  {
+    "id": "goggles_ski",
+    "copy-from": "goggles_ski",
+    "type": "ARMOR",
+    "name": {
+      "str": "ski goggles",
+      "str_pl": "ski goggles"
+    }
+  },
+  {
+    "id": "goggles_welding",
+    "copy-from": "goggles_welding",
+    "type": "ARMOR",
+    "name": {
+      "str": "welding goggles",
+      "str_pl": "welding goggles"
+    }
+  },
+  {
+    "id": "iggaak",
+    "copy-from": "iggaak",
+    "type": "ARMOR",
+    "name": {
+      "str": "snow goggles",
+      "str_pl": "snow goggles"
+    }
+  },
+  {
+    "id": "sunglasses",
+    "copy-from": "sunglasses",
+    "type": "ARMOR",
+    "name": {
+      "str": "sunglasses",
+      "str_pl": "sunglasses"
+    }
+  },
+  {
+    "id": "sunglasses_bifocal",
+    "copy-from": "sunglasses_bifocal",
+    "type": "ARMOR",
+    "name": {
+      "str": "bifocal sunglasses",
+      "str_pl": "bifocal sunglasses"
+    }
+  },
+  {
+    "id": "sunglasses_eye",
+    "copy-from": "sunglasses_eye",
+    "type": "ARMOR",
+    "name": {
+      "str": "corrective sunglasses",
+      "str_pl": "corrective sunglasses"
+    }
+  },
+  {
+    "id": "sunglasses_reading",
+    "copy-from": "sunglasses_reading",
+    "type": "ARMOR",
+    "name": {
+      "str": "reading sunglasses",
+      "str_pl": "reading sunglasses"
+    }
+  },
+  {
+    "id": "fancy_glasses_bifocal",
+    "copy-from": "fancy_glasses_bifocal",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish bifocal glasses",
+      "str_pl": "stylish bifocal glasses"
+    }
+  },
+  {
+    "id": "fancy_glasses_eye",
+    "copy-from": "fancy_glasses_eye",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish corrective glasses",
+      "str_pl": "stylish corrective glasses"
+    }
+  },
+  {
+    "id": "fancy_glasses_reading",
+    "copy-from": "fancy_glasses_reading",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish reading glasses",
+      "str_pl": "stylish reading glasses"
+    }
+  },
+  {
+    "id": "fancy_sunglasses_bifocal",
+    "copy-from": "fancy_sunglasses_bifocal",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish bifocal sunglasses",
+      "str_pl": "stylish bifocal sunglasses"
+    }
+  },
+  {
+    "id": "fancy_sunglasses_eye",
+    "copy-from": "fancy_sunglasses_eye",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish corrective sunglasses",
+      "str_pl": "stylish corrective sunglasses"
+    }
+  },
+  {
+    "id": "fancy_sunglasses_reading",
+    "copy-from": "fancy_sunglasses_reading",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish reading sunglasses",
+      "str_pl": "stylish reading sunglasses"
+    }
+  },
+  {
+    "id": "transition_glasses_bifocal",
+    "copy-from": "transition_glasses_bifocal",
+    "type": "ARMOR",
+    "name": {
+      "str": "transition bifocal glasses",
+      "str_pl": "transition bifocal glasses"
+    }
+  },
+  {
+    "id": "transition_glasses_eye",
+    "copy-from": "transition_glasses_eye",
+    "type": "ARMOR",
+    "name": {
+      "str": "transition corrective glasses",
+      "str_pl": "transition corrective glasses"
+    }
+  },
+  {
+    "id": "transition_glasses_reading",
+    "copy-from": "transition_glasses_reading",
+    "type": "ARMOR",
+    "name": {
+      "str": "transition reading glasses",
+      "str_pl": "transition reading glasses"
+    }
+  },
+  {
+    "id": "fancy_transition_glasses_bifocal",
+    "copy-from": "fancy_transition_glasses_bifocal",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish transition bifocal glasses",
+      "str_pl": "stylish transition bifocal glasses"
+    }
+  },
+  {
+    "id": "fancy_transition_glasses_eye",
+    "copy-from": "fancy_transition_glasses_eye",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish transition corrective glasses",
+      "str_pl": "stylish transition corrective glasses"
+    }
+  },
+  {
+    "id": "fancy_transition_glasses_reading",
+    "copy-from": "fancy_transition_glasses_reading",
+    "type": "ARMOR",
+    "name": {
+      "str": "stylish transition reading glasses",
+      "str_pl": "stylish transition reading glasses"
+    }
+  },
+  {
+    "id": "arm_warmers",
+    "copy-from": "arm_warmers",
+    "type": "ARMOR",
+    "name": {
+      "str": "arm warmers",
+      "str_pl": "arm warmers"
+    }
+  },
+  {
+    "id": "xl_arm_warmers",
+    "copy-from": "xl_arm_warmers",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL arm warmers",
+      "str_pl": "XL arm warmers"
+    }
+  },
+  {
+    "id": "xs_arm_warmers",
+    "copy-from": "xs_arm_warmers",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS arm warmers",
+      "str_pl": "XS arm warmers"
+    }
+  },
+  {
+    "id": "leg_warmers",
+    "copy-from": "leg_warmers",
+    "type": "ARMOR",
+    "name": {
+      "str": "leg warmers",
+      "str_pl": "leg warmers"
+    }
+  },
+  {
+    "id": "leg_warmers_f",
+    "copy-from": "leg_warmers_f",
+    "type": "ARMOR",
+    "name": {
+      "str": "fur leggings",
+      "str_pl": "fur leggings"
+    }
+  },
+  {
+    "id": "leg_warmers_xlf",
+    "copy-from": "leg_warmers_xlf",
+    "type": "ARMOR",
+    "name": {
+      "str": "fetlock furs",
+      "str_pl": "fetlock furs"
+    }
+  },
+  {
+    "id": "leg_warmers_xsf",
+    "copy-from": "leg_warmers_xsf",
+    "type": "ARMOR",
+    "name": {
+      "str": "fetlock furs",
+      "str_pl": "fetlock furs"
+    }
+  },
+  {
+    "id": "leg_warmers_xl",
+    "copy-from": "leg_warmers_xl",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL leg warmers",
+      "str_pl": "XL leg warmers"
+    }
+  },
+  {
+    "id": "leg_warmers_xs",
+    "copy-from": "leg_warmers_xs",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS leg warmers",
+      "str_pl": "XS leg warmers"
+    }
+  },
+  {
+    "id": "fishing_waders",
+    "copy-from": "fishing_waders",
+    "type": "ARMOR",
+    "name": {
+      "str": "fishing waders",
+      "str_pl": "fishing waders"
+    }
+  },
+  {
+    "id": "gloves_lsurvivor",
+    "copy-from": "gloves_lsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "light survivor gloves",
+      "str_pl": "light survivor gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_lsurvivor",
+    "copy-from": "xl_gloves_lsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL light survivor gloves",
+      "str_pl": "XL light survivor gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_lsurvivor",
+    "copy-from": "xs_gloves_lsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS light survivor gloves",
+      "str_pl": "XS light survivor gloves"
+    }
+  },
+  {
+    "id": "gloves_lsurvivor_fingerless",
+    "copy-from": "gloves_lsurvivor_fingerless",
+    "type": "ARMOR",
+    "name": {
+      "str": "fingerless light survivor gloves",
+      "str_pl": "fingerless light survivor gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_lsurvivor_fingerless",
+    "copy-from": "xl_gloves_lsurvivor_fingerless",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL fingerless light survivor gloves",
+      "str_pl": "XL fingerless light survivor gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_lsurvivor_fingerless",
+    "copy-from": "xs_gloves_lsurvivor_fingerless",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS fingerless light survivor gloves",
+      "str_pl": "XS fingerless light survivor gloves"
+    }
+  },
+  {
+    "id": "gloves_survivor_fingerless",
+    "copy-from": "gloves_survivor_fingerless",
+    "type": "ARMOR",
+    "name": {
+      "str": "fingerless survivor gloves",
+      "str_pl": "fingerless survivor gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_survivor_fingerless",
+    "copy-from": "xl_gloves_survivor_fingerless",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL fingerless survivor gloves",
+      "str_pl": "XL fingerless survivor gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_survivor_fingerless",
+    "copy-from": "xs_gloves_survivor_fingerless",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS fingerless survivor gloves",
+      "str_pl": "XS fingerless survivor gloves"
+    }
+  },
+  {
+    "id": "gloves_survivor",
+    "copy-from": "gloves_survivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "survivor gloves",
+      "str_pl": "survivor gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_survivor",
+    "copy-from": "xl_gloves_survivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL survivor gloves",
+      "str_pl": "XL survivor gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_survivor",
+    "copy-from": "xs_gloves_survivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS survivor gloves",
+      "str_pl": "XS survivor gloves"
+    }
+  },
+  {
+    "id": "gloves_wsurvivor",
+    "copy-from": "gloves_wsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "winter survivor gloves",
+      "str_pl": "winter survivor gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_wsurvivor",
+    "copy-from": "xl_gloves_wsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL winter survivor gloves",
+      "str_pl": "XL winter survivor gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_wsurvivor",
+    "copy-from": "xs_gloves_wsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS winter survivor gloves",
+      "str_pl": "XS winter survivor gloves"
+    }
+  },
+  {
+    "id": "gloves_wsurvivor_nofur",
+    "copy-from": "gloves_wsurvivor_nofur",
+    "type": "ARMOR",
+    "name": {
+      "str": "faux fur winter survivor gloves",
+      "str_pl": "faux fur winter survivor gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_wsurvivor_nofur",
+    "copy-from": "xl_gloves_wsurvivor_nofur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL faux fur winter survivor gloves",
+      "str_pl": "XL faux fur winter survivor gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_wsurvivor_nofur",
+    "copy-from": "xs_gloves_wsurvivor_nofur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS faux fur winter survivor gloves",
+      "str_pl": "XS faux fur winter survivor gloves"
+    }
+  },
+  {
+    "id": "gloves_h20survivor",
+    "copy-from": "gloves_h20survivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "survivor wetsuit gloves",
+      "str_pl": "survivor wetsuit gloves"
+    }
+  },
+  {
+    "id": "boots_lsurvivor",
+    "copy-from": "boots_lsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "light survivor boots",
+      "str_pl": "light survivor boots"
+    }
+  },
+  {
+    "id": "xl_boots_lsurvivor",
+    "copy-from": "xl_boots_lsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL light survivor boots",
+      "str_pl": "XL light survivor boots"
+    }
+  },
+  {
+    "id": "xs_boots_lsurvivor",
+    "copy-from": "xs_boots_lsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS light survivor boots",
+      "str_pl": "XS light survivor boots"
+    }
+  },
+  {
+    "id": "boots_survivor",
+    "copy-from": "boots_survivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "survivor boots",
+      "str_pl": "survivor boots"
+    }
+  },
+  {
+    "id": "boots_xlsurvivor",
+    "copy-from": "boots_xlsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL survivor boots",
+      "str_pl": "XL survivor boots"
+    }
+  },
+  {
+    "id": "boots_xssurvivor",
+    "copy-from": "boots_xssurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS survivor boots",
+      "str_pl": "XS survivor boots"
+    }
+  },
+  {
+    "id": "boots_wsurvivor_nofur",
+    "copy-from": "boots_wsurvivor_nofur",
+    "type": "ARMOR",
+    "name": {
+      "str": "faux fur winter survivor boots",
+      "str_pl": "faux fur winter survivor boots"
+    }
+  },
+  {
+    "id": "xl_boots_wsurvivor_nofur",
+    "copy-from": "xl_boots_wsurvivor_nofur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL faux fur winter survivor boots",
+      "str_pl": "XL faux fur winter survivor boots"
+    }
+  },
+  {
+    "id": "xs_boots_wsurvivor_nofur",
+    "copy-from": "xs_boots_wsurvivor_nofur",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS faux fur winter survivor boots",
+      "str_pl": "XS faux fur winter survivor boots"
+    }
+  },
+  {
+    "id": "boots_wsurvivor",
+    "copy-from": "boots_wsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "winter survivor boots",
+      "str_pl": "winter survivor boots"
+    }
+  },
+  {
+    "id": "xl_boots_wsurvivor",
+    "copy-from": "xl_boots_wsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL winter survivor boots",
+      "str_pl": "XL winter survivor boots"
+    }
+  },
+  {
+    "id": "xs_boots_wsurvivor",
+    "copy-from": "xs_boots_wsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS winter survivor boots",
+      "str_pl": "XS winter survivor boots"
+    }
+  },
+  {
+    "id": "boots_h20survivor",
+    "copy-from": "boots_h20survivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "survivor wetsuit boots",
+      "str_pl": "survivor wetsuit boots"
+    }
+  },
+  {
+    "id": "boots_fsurvivor",
+    "copy-from": "boots_fsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "survivor fireboots",
+      "str_pl": "survivor fireboots"
+    }
+  },
+  {
+    "id": "xl_boots_fsurvivor",
+    "copy-from": "xl_boots_fsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL survivor fireboots",
+      "str_pl": "XL survivor fireboots"
+    }
+  },
+  {
+    "id": "xs_boots_fsurvivor",
+    "copy-from": "xs_boots_fsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS survivor fireboots",
+      "str_pl": "XS survivor fireboots"
+    }
+  },
+  {
+    "id": "boots_hsurvivor",
+    "copy-from": "boots_hsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "heavy survivor boots",
+      "str_pl": "heavy survivor boots"
+    }
+  },
+  {
+    "id": "xl_boots_hsurvivor",
+    "copy-from": "xl_boots_hsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL heavy survivor boots",
+      "str_pl": "XL heavy survivor boots"
+    }
+  },
+  {
+    "id": "xs_boots_hsurvivor",
+    "copy-from": "xs_boots_hsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS heavy survivor boots",
+      "str_pl": "XS heavy survivor boots"
+    }
+  },
+  {
+    "id": "gloves_hsurvivor",
+    "copy-from": "gloves_hsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "heavy survivor gloves",
+      "str_pl": "heavy survivor gloves"
+    }
+  },
+  {
+    "id": "xl_gloves_hsurvivor",
+    "copy-from": "xl_gloves_hsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL heavy survivor gloves",
+      "str_pl": "XL heavy survivor gloves"
+    }
+  },
+  {
+    "id": "xs_gloves_hsurvivor",
+    "copy-from": "xs_gloves_hsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS heavy survivor gloves",
+      "str_pl": "XS heavy survivor gloves"
+    }
+  },
+  {
+    "id": "gloves_fsurvivor",
+    "copy-from": "gloves_fsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "survivor firegloves",
+      "str_pl": "survivor firegloves"
+    }
+  },
+  {
+    "id": "xl_gloves_fsurvivor",
+    "copy-from": "xl_gloves_fsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XL survivor firegloves",
+      "str_pl": "XL survivor firegloves"
+    }
+  },
+  {
+    "id": "xs_gloves_fsurvivor",
+    "copy-from": "xs_gloves_fsurvivor",
+    "type": "ARMOR",
+    "name": {
+      "str": "XS survivor firegloves",
+      "str_pl": "XS survivor firegloves"
+    }
+  },
+  {
+    "id": "contacts",
+    "copy-from": "contacts",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": {
+      "str": "contact lenses",
+      "str_pl": "contact lenses"
+    }
+  },
+  {
+    "id": "wheel_mount_skateboard",
+    "copy-from": "wheel_mount_skateboard",
+    "type": "GENERIC",
+    "name": {
+      "str": "skateboard trucks",
+      "str_pl": "skateboard trucks"
+    }
+  },
+  {
+    "id": "wheel_rail_small_pair",
+    "copy-from": "wheel_rail_small_pair",
+    "type": "WHEEL",
+    "name": {
+      "str": "small rail wheels",
+      "str_pl": "small rail wheels"
+    }
+  },
+  {
+    "id": "wheel_wheelchair",
+    "copy-from": "wheel_wheelchair",
+    "type": "WHEEL",
+    "name": {
+      "str": "wheelchair wheels",
+      "str_pl": "wheelchair wheels"
+    }
+  },
+  {
+    "id": "chainmail_arms",
+    "copy-from": "chainmail_arms",
+    "type": "ARMOR",
+    "name": {
+      "str": "chainmail sleeves",
+      "str_pl": "chainmail sleeves"
+    }
+  },
+  {
+    "id": "chainmail_hands",
+    "copy-from": "chainmail_hands",
+    "type": "ARMOR",
+    "name": {
+      "str": "chainmail gloves",
+      "str_pl": "chainmail gloves"
+    }
+  },
+  {
+    "id": "chainmail_feet",
+    "copy-from": "chainmail_feet",
+    "type": "ARMOR",
+    "name": {
+      "str": "chainmail chausses",
+      "str_pl": "chainmail chausses"
+    }
+  },
+  {
+    "id": "rail_wheel_small_pair",
+    "copy-from": "rail_wheel_small_pair",
+    "type": "vehicle_part",
+    "name": {
+      "str": "small rail wheels"
+    }
+  },
+  {
+    "id": "art_gloves",
+    "copy-from": "art_gloves",
+    "type": "ARMOR",
+    "name": {
+      "str": "ornate leather gloves",
+      "str_pl": "ornate leather gloves"
+    }
+  },
+  {
+    "id": "art_boots",
+    "copy-from": "art_boots",
+    "type": "ARMOR",
+    "name": {
+      "str": "ancient leather boots",
+      "str_pl": "ancient leather boots"
+    }
+  }
+]

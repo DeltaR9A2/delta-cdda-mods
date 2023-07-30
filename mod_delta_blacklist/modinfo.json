@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "delta_blacklist",
+    "name": "Delta Blacklist",
+    "authors": [ "DeltaR9A2" ],
+    "maintainers": [ "DeltaR9A2" ],
+    "description": "Blacklists various things that I felt like blacklisting. Also disables autolearn on a lot of recipes.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

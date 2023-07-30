@@ -1,5 +1,13 @@
 [
   {
+    "type": "skill",
+    "id": "abstraction",
+    "name": { "str": "abstraction" },
+    "description": "Your skill in transforming physical matter into abstract matter, reconfiguring it, and returning it to a physical form.",
+    "display_category": "display_crafting",
+    "sort_rank": 17500
+  },
+  {
     "type": "recipe_category",
     "id": "CC_ABSTRACT",
     "recipe_subcategories": [
@@ -114,7 +122,7 @@
     "description": "Piercing, stabbing, and impaling; a sharp point penetrates the whole, damaging internal structures."
   },
 
-  { "type": "recipe", "abstract": "abstract_recipe", "skill_used": "abstraction", "time": "60 s", "activity_level": "NO_EXERCISE", "category": "CC_OTHER", "subcategory": "CSC_OTHER_MATERIALS", "reversible": false, "autolearn": true },
+  { "type": "recipe", "abstract": "abstract_recipe", "skill_used": "abstraction", "time": "3 m", "activity_level": "NO_EXERCISE", "category": "CC_OTHER", "subcategory": "CSC_OTHER_MATERIALS", "reversible": false, "autolearn": true },
 
   { "abstract": "abstract_material",    "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_MATS", "type": "recipe", "copy-from": "abstract_recipe" },
   { "abstract": "abstract_material_t0", "difficulty": 0, "type": "recipe", "copy-from": "abstract_material" },
@@ -122,9 +130,9 @@
   { "abstract": "abstract_material_t2", "difficulty": 2, "type": "recipe", "copy-from": "abstract_material" },
   { "abstract": "abstract_material_t3", "difficulty": 3, "type": "recipe", "copy-from": "abstract_material" },
 
-  { "abstract": "abstract_refinement_t0", "difficulty": 0, "time": "15 m", "type": "recipe", "copy-from": "abstract_material" },
-  { "abstract": "abstract_refinement_t1", "difficulty": 1, "time": "60 m", "type": "recipe", "copy-from": "abstract_material" },
-  { "abstract": "abstract_refinement_t2", "difficulty": 2, "time":  "8 h", "type": "recipe", "copy-from": "abstract_material" },
+  { "abstract": "abstract_refinement_t0", "difficulty": 0, "time": "10 m", "type": "recipe", "copy-from": "abstract_material" },
+  { "abstract": "abstract_refinement_t1", "difficulty": 1, "time": "20 m", "type": "recipe", "copy-from": "abstract_material" },
+  { "abstract": "abstract_refinement_t2", "difficulty": 2, "time":  "2 h", "type": "recipe", "copy-from": "abstract_material" },
 
   { "result": "raw_thought_t1", "components": [ [ ["abstract_trash", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_refinement_t0" },
   { "result": "raw_thought_t2", "components": [ [ ["raw_thought_t1", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_refinement_t1" },
@@ -139,14 +147,14 @@
     "components": [ [ ["raw_thought_t1", 1] ],
       [ ["ax", 1], ["hatchet", 1], ["knife_butcher", 1], ["knife_chef", 1],
         ["knife_carving", 1], ["knife_meat_cleaver", 1], ["machete", 1 ],
-        ["knife_vegetable_cleaver", 1 ],
+        ["knife_vegetable_cleaver", 1 ], ["knife_steak", 1],
         ["reciprocating_saw", 1] ] ] },
 
   { "result": "abstract_piercing", "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_material_t3",
     "components": [ [ ["raw_thought_t1", 1] ],
       [ ["spear_wood", 1], ["spear_spike", 1], ["spear_knife", 1],
         ["spear_pipe", 1], ["spear_stone", 1], ["rapier", 1],
-        ["hand_drill", 1], ["cordless_drill", 1] ] ] },
+        ["hand_drill", 1], ["cordless_drill", 1], ["fork", 1], ["pitchfork", 1] ] ] },
 
   { "result": "abstract_bashing", "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_material_t3",
     "components": [ [ ["raw_thought_t1", 1] ],
@@ -195,7 +203,7 @@
   { "abstract": "abstract_tool_t2", "difficulty": 2, "type": "recipe", "copy-from": "abstract_tool" },
   { "abstract": "abstract_tool_t3", "difficulty": 3, "type": "recipe", "copy-from": "abstract_tool" },
 
-  { "result": "long_pole",     "components": [ [ ["abstract_pole", 1 ] ], [ ["raw_thought_t1", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_material_t1" },
+  { "result": "long_pole",     "components": [ [ ["abstract_pole",  1 ] ], [ ["raw_thought_t1", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_material_t1" },
 
   { "result": "screwdriver",   "components": [ [ ["abstract_trash", 5 ] ], [ ["abstract_utility", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t1" },
   { "result": "hammer",        "components": [ [ ["abstract_chunk", 1 ] ], [ ["abstract_utility", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t1" },
@@ -221,14 +229,23 @@
   { "abstract": "abstract_weapon", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_WEAPON", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 3 },
   { "result": "mossberg_500", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
   { "result": "modular_m4_carbine", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
+  { "result": "fn_p90", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
+  { "result": "modular_m4_carbine", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
+  { "result": "fn57", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
 
   { "result": "spear_steel", "components": [ [ [ "abstract_pole", 1 ] ], [ ["abstract_piercing", 1 ] ], [ ["raw_thought_t2", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
 
   { "abstract": "abstract_magazine", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_MAGS", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 2 },
   { "result": "stanag10", "components": [ [ [ "abstract_trash", 10 ], ["abstract_part", 1 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
   { "result": "stanag30", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 3 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
+  { "result": "m1911mag", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 1 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
+  { "result": "m1911bigmag", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 2 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
+  { "result": "fnp90mag", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 2 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
 
   { "abstract": "abstract_ammo", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_AMMO", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 2 },
+  { "result": "45_acp", "charges": 5, "components": [ [ ["abstract_trash", 10], [ "abstract_part", 1 ] ] ], "type": "recipe", "id_suffix": "abstract", "copy-from": "abstract_ammo" },
+  { "result": "9mm", "charges": 8, "components": [ [ ["abstract_trash", 10], [ "abstract_part", 1 ] ] ], "type": "recipe", "id_suffix": "abstract", "copy-from": "abstract_ammo" },
+  { "result": "57mm", "charges": 5, "components": [ [ ["abstract_trash", 10], [ "abstract_part", 1 ] ] ], "type": "recipe", "id_suffix": "abstract", "copy-from": "abstract_ammo" },
   { "result": "shot_00", "charges": 3, "components": [ [ ["abstract_trash", 10], [ "abstract_part", 1 ] ] ], "type": "recipe", "id_suffix": "abstract", "copy-from": "abstract_ammo" },
   { "result": "556", "charges": 5, "components": [ [ ["abstract_trash", 10], [ "abstract_part", 1 ] ] ], "type": "recipe", "id_suffix": "abstract", "copy-from": "abstract_ammo" }
 ]
