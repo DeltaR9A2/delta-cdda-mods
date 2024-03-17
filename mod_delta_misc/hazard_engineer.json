@@ -9,7 +9,8 @@
       "both": {
         "items": [ 
           "delta_hazard_suit", 
-          "delta_hazard_mask", 
+          "delta_hazard_mask",
+          "delta_hazard_helmet",
           "boots_combat",
           "gloves_work",
           "legguard_hard",
@@ -31,9 +32,7 @@
 
       { "level": 1, "name": "firstaid" },
       { "level": 1, "name": "computer" },
-      { "level": 1, "name": "electronics" },
-      
-      { "level": 1, "name": "abstraction" }
+      { "level": 1, "name": "electronics" }
     ]
   }
 ]

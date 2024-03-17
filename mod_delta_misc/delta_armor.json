@@ -13,26 +13,42 @@
         "material": [
           { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
           { "type": "kevlar", "covered_by_mat": 100, "thickness": 1.0 },
-          { "type": "lycra", "covered_by_mat": 100, "thickness": 0.5
-          }
+          { "type": "lycra", "covered_by_mat": 100, "thickness": 0.25 }
         ]
       }
     ]
   },
   { "id": "delta_hazard_mask", "type": "ARMOR",
     "name": { "str": "delta hazard mask" }, "category": "armor",
-    "description": "Fully enclosed protective helmet.",
-    "material": [ "plastic", "plastic_pad" ],
+    "description": "High tech armored face mask with built-in environmental filters..",
+    "material": [ "thermo_resin" ],
     "symbol": "[", "color": "yellow", "volume": "1000 ml", "weight": "500 g",
     "warmth": 10, "environmental_protection": 20,
     "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE", "SUN_GLASSES", "SWIM_GOGGLES" ],
     "armor": [ {
-        "covers": [ "head", "eyes", "mouth" ],
+        "covers": [ "eyes", "mouth" ],
         "coverage": 100,
         "encumbrance": 10,
         "material": [
-          { "type": "plastic", "covered_by_mat": 100, "thickness": 1 },
-          { "type": "plastic_pad", "covered_by_mat": 100, "thickness": 10 }
+          { "type": "thermo_resin", "covered_by_mat": 100, "thickness": 2 }
+        ]
+      }
+    ]
+  },
+  { "id": "delta_hazard_helmet", "type": "ARMOR",
+    "name": { "str": "delta hazard helmet" }, "category": "armor",
+    "description": "Fully enclosed protective helmet.",
+    "material": [ "plastic", "plastic_pad" ],
+    "symbol": "[", "color": "yellow", "volume": "1000 ml", "weight": "500 g",
+    "warmth": 10, "environmental_protection": 20,
+    "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ],
+    "armor": [ {
+        "covers": [ "head" ],
+        "coverage": 100,
+        "encumbrance": 10,
+        "material": [
+          { "type": "thermo_resin", "covered_by_mat": 100, "thickness": 1 },
+          { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
         ]
       }
     ]
