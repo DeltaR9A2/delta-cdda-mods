@@ -7,8 +7,8 @@
     "points": 0,
     "items": {
       "both": {
-        "items": [ 
-          "delta_hazard_suit", 
+        "items": [
+          "delta_hazard_suit",
           "delta_hazard_mask",
           "delta_hazard_helmet",
           "boots_combat",
@@ -17,6 +17,7 @@
           "armguard_hard",
           "chestguard_hard",
           "tool_belt",
+          "delta_ethr_multitool",
           "crowbar"
         ]
       }
@@ -33,6 +34,90 @@
       { "level": 1, "name": "firstaid" },
       { "level": 1, "name": "computer" },
       { "level": 1, "name": "electronics" }
+    ],
+    "proficiencies": [
+      "prof_elec_circuits",
+      "prof_plumbing",
+      "prof_welding",
+      "prof_toolsmithing",
+      "prof_elec_soldering",
+      "prof_spotting",
+      "prof_disarming",
+      "prof_wp_zombie",
+      "prof_wp_cyborg",
+      "prof_wp_basic_bug",
+      "prof_batons_familiar",
+      "prof_orbital_mechanic",
+      "prof_starship_mechanic"
+    ]
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_orbital_mechanic",
+    "category": "prof_mechanic",
+    "name": { "str": "Orbital Infrastructure" },
+    "description": "You know how to repair and maintain orbital infrastructure such as satellites and space stations.",
+    "can_learn": false
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_starship_mechanic",
+    "category": "prof_mechanic",
+    "name": { "str": "Starship Mechanic" },
+    "description": "You know how to repair and maintain spacefaring vehicles.",
+    "can_learn": false
+  },
+  {
+    "id": "delta_ethr_multitool",
+    "type": "TOOL",
+    "name": { "str": "ETHR multitool" },
+    "description": "An incredibly sturdy configurable multitool about the size of a bulky pistol or an electric drill. It bears a symbol of a ratchet and wrench crossed in front of a lit blowtorch. Below the symbol are four block letters 'ETHR'.",
+    "weight": "2000 g",
+    "volume": "800 ml",
+    "longest_side": "20 cm",
+    "price": 500000,
+    "price_postapoc": 5000,
+    "to_hit": { "grip": "solid", "length": "short", "surface": "any", "balance": "clumsy" },
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "qualities": [
+      [ "CUT",         2 ],
+      [ "CUT_FINE",    2 ],
+      [ "SCREW",       1 ],
+      [ "SCREW_FINE",  1 ],
+      [ "HAMMER",      3 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "WRENCH",      2 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "SAW_M",       2 ],
+      [ "SAW_M_FINE",  1 ],
+      [ "SAW_W",       2 ],
+      [ "PRY",         2 ],
+      [ "PRYING_NAIL", 1 ],
+      [ "WHEEL_FAST",  1 ],
+      [ "FILE",        2 ],
+      [ "FINE_GRIND",  1 ],
+      [ "CHISEL",      3 ],
+      [ "CHISEL_WOOD", 3 ]
+    ],
+    "charged_qualities": [
+      [ "WELD",        2 ],
+      [ "DRILL",       3 ],
+      [ "GRIND",       2 ]
+    ],
+    "flags": [ "DURABLE_MELEE", "ALLOWS_BODY_BLOCK" ],
+    "melee_damage": { "bash": 12, "stab": 2 },
+    "ammo": [ "battery" ],
+    "charges_per_use": 5,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "magazine_well": "200 ml",
+        "flag_restriction": [ "BATTERY_MEDIUM" ],
+        "default_magazine": "medium_battery_cell"
+      }
     ]
   }
 ]
+
