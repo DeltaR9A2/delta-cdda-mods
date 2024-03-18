@@ -18,7 +18,7 @@
           "chestguard_hard",
           "tool_belt",
           "delta_ethr_multitool",
-          "crowbar"
+          "delta_ethr_demotool"
         ]
       }
     },
@@ -71,16 +71,13 @@
     "id": "delta_ethr_multitool",
     "type": "TOOL",
     "name": { "str": "ETHR multitool" },
-    "description": "An incredibly sturdy configurable multitool about the size of a bulky pistol or an electric drill. It bears a symbol of a ratchet and wrench crossed in front of a lit blowtorch. Below the symbol are four block letters 'ETHR'.",
-    "weight": "2000 g",
-    "volume": "800 ml",
-    "longest_side": "20 cm",
-    "price": 500000,
-    "price_postapoc": 5000,
-    "to_hit": { "grip": "solid", "length": "short", "surface": "any", "balance": "clumsy" },
-    "material": [ "steel" ],
-    "symbol": ";",
-    "color": "light_gray",
+    "description": "A configurable multitool about the size of a bulky pistol. It bears a symbol of a ratchet and wrench crossed in front of a lit blowtorch. Below the symbol are four block letters 'ETHR'.",
+    "symbol": ";", "color": "light_gray", "longest_side": "20 cm",
+    "material": [ "steel" ], "weight": "1200 g", "volume": "200 ml",
+    "price": 50000, "price_postapoc": 2000,
+    "to_hit": { "grip": "solid", "length": "short", "surface": "any", "balance": "uneven" },
+    "melee_damage": { "bash": 12, "stab": 2 },
+    "flags": [ "DURABLE_MELEE", "ALLOWS_BODY_BLOCK" ],
     "qualities": [
       [ "CUT",         2 ],
       [ "CUT_FINE",    2 ],
@@ -90,33 +87,34 @@
       [ "HAMMER_FINE", 1 ],
       [ "WRENCH",      2 ],
       [ "WRENCH_FINE", 1 ],
-      [ "SAW_M",       2 ],
+      [ "SAW_M",       1 ],
       [ "SAW_M_FINE",  1 ],
-      [ "SAW_W",       2 ],
-      [ "PRY",         2 ],
-      [ "PRYING_NAIL", 1 ],
+      [ "SAW_W",       1 ],
       [ "WHEEL_FAST",  1 ],
       [ "FILE",        2 ],
       [ "FINE_GRIND",  1 ],
       [ "CHISEL",      3 ],
       [ "CHISEL_WOOD", 3 ]
-    ],
-    "charged_qualities": [
-      [ "WELD",        2 ],
-      [ "DRILL",       3 ],
-      [ "GRIND",       2 ]
-    ],
+    ]
+  },
+  {
+    "id": "delta_ethr_demotool",
+    "type": "TOOL",
+    "name": { "str": "ETHR demo tool" },
+    "description": "A multi-purpose tool for demolition work; something like a combination of a hatchet, a crowbar, and a hacksaw. It bears a symbol of a ratchet and wrench crossed in front of a lit blowtorch. Below the symbol are four block letters 'ETHR'.",
+    "symbol": "F", "color": "yellow", "longest_side": "45 cm",
+    "material": [ "steel" ], "weight": "2000 g", "volume": "1000 ml",
+    "price": 50000, "price_postapoc": 2000,
+    "to_hit": { "grip": "solid", "length": "short", "surface": "any", "balance": "neutral" },
+    "melee_damage": { "bash": 20, "stab": 8 },
     "flags": [ "DURABLE_MELEE", "ALLOWS_BODY_BLOCK" ],
-    "melee_damage": { "bash": 12, "stab": 2 },
-    "ammo": [ "battery" ],
-    "charges_per_use": 5,
-    "pocket_data": [
-      {
-        "pocket_type": "MAGAZINE_WELL",
-        "magazine_well": "200 ml",
-        "flag_restriction": [ "BATTERY_MEDIUM" ],
-        "default_magazine": "medium_battery_cell"
-      }
+    "qualities": [
+      [ "CUT",         2 ],
+      [ "HAMMER",      3 ],
+      [ "SAW_M",       2 ],
+      [ "SAW_W",       2 ],
+      [ "PRY",         3 ],
+      [ "PRYING_NAIL", 1 ]
     ]
   }
 ]
