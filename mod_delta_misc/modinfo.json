@@ -11,65 +11,37 @@
   },
   {
     "type": "EXTERNAL_OPTION",
-    "name": "PLAYER_MAX_STAMINA_BASE",
-    "info": "Sets the base max stamina value of the player, before cardio modifiers.",
-    "stype": "int",
-    "value": 2000
-  },
-  {
-    "type": "EXTERNAL_OPTION",
-    "name": "PLAYER_CARDIOFIT_STAMINA_SCALING",
-    "info": "Sets the effect of cardio on maximum stamina.",
-    "stype": "int",
-    "value": 0
-  },
-  {
-    "type": "EXTERNAL_OPTION",
-    "name": "PLAYER_BASE_STAMINA_REGEN_RATE",
-    "info": "Sets base stamina regeneration per turn of the player, before cardio modifiers.  May be used as an offset in stamina draining effects.",
-    "stype": "float",
-    "value": 200
-  },
-  {
-    "type": "EXTERNAL_OPTION",
-    "name": "PLAYER_BASE_STAMINA_BURN_RATE",
-    "info": "Sets base stamina burn per 100 moves of the walking player.",
-    "stype": "int",
-    "value": 30
-  },
-  {
-    "type": "EXTERNAL_OPTION",
     "name": "PLAYER_HUNGER_RATE",
     "info": "Set base hunger rate per 5 minutes.  Default: 1.0",
     "stype": "float",
-    "value": 1.0
+    "value": 0.5
   },
   {
     "type": "EXTERNAL_OPTION",
     "name": "PLAYER_THIRST_RATE",
     "info": "Set base thirst rate per 5 minutes.  Default: 1.0",
     "stype": "float",
-    "value": 0.8
+    "value": 0.5
   },
   {
     "type": "EXTERNAL_OPTION",
     "name": "PLAYER_FATIGUE_RATE",
     "info": "Set base fatigue rate per 5 minutes.  Default: 1.0",
     "stype": "float",
-    "value": 0.9
+    "value": 0.5
   },
   {
     "type": "EXTERNAL_OPTION",
     "name": "PLAYER_HEALING_RATE",
     "info": "Set base player healing rate per turn.  Default: 0.0001",
     "stype": "float",
-    "value": 0.001
+    "value": 0.01
   },
   {
     "type": "EXTERNAL_OPTION",
     "name": "NPC_HEALING_RATE",
     "info": "Set base NPC healing rate per turn.  Default: 0.0001",
     "stype": "float",
-    "value": 0.001
+    "value": 0.01
   }
 ]
