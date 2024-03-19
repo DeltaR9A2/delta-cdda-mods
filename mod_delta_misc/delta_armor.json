@@ -1,56 +1,57 @@
 [
-  { "id": "delta_hazard_suit", "type": "ARMOR",
-    "name": { "str": "delta hazard suit" }, "category": "armor",
-    "description": "Full body protective suit.",
-    "material": [ "nylon", "kevlar", "lycra" ],
-    "symbol": "[", "color": "yellow", "volume": "5000 ml", "weight": "2500 g",
-    "warmth": 20, "environmental_protection": 20,
-    "flags": [ "VARSIZE", "SKINTIGHT", "STURDY", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ],
+  { "type":     "ARMOR",  "id": "ethr_hev_armor_under",
+    "category": "armor",  "name": { "str": "ETHR HEV Underlayer" },
+    "description": "Full body protective suit used by the ETHR engineering corps. This form-fitting suit is meant to be worn under a more robust system of rigid armor plates.",
+    "symbol": "[", "color": "dark_gray", "warmth": 10, "environmental_protection": 10,
+    "volume": "2000 ml", "weight": "1000 g", "material": [ "nylon", "kevlar", "lycra" ],
     "armor": [ {
+        "coverage": 100, "encumbrance": 8,
         "covers": [ "head", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
-        "coverage": 100,
-        "encumbrance": 8,
         "material": [
-          { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
-          { "type": "kevlar", "covered_by_mat": 100, "thickness": 1.0 },
-          { "type": "lycra", "covered_by_mat": 100, "thickness": 0.25 }
+          { "type": "nylon",  "covered_by_mat": 100, "thickness": 2.0  },
+          { "type": "kevlar", "covered_by_mat": 100, "thickness": 1.0  },
+          { "type": "lycra",  "covered_by_mat": 100, "thickness": 0.25 }
         ]
       }
-    ]
+    ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "STURDY", "WATERPROOF",
+               "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ]
   },
-  { "id": "delta_hazard_mask", "type": "ARMOR",
-    "name": { "str": "delta hazard mask" }, "category": "armor",
-    "description": "High tech armored face mask with built-in environmental filters..",
-    "material": [ "thermo_resin" ],
-    "symbol": "[", "color": "yellow", "volume": "1000 ml", "weight": "500 g",
-    "warmth": 10, "environmental_protection": 20,
-    "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE", "SUN_GLASSES", "SWIM_GOGGLES" ],
+  { "type":     "ARMOR", "id": "ethr_hev_armor_helmet",
+    "category": "armor", "name": { "str": "ETHR HEV Mask" },
+    "description": "Protective helmet meant to be worn in combination with the ETHR HEV Mask.",
+    "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 20,
+    "volume": "1200 ml", "weight": "500 g", "material": [ "thermo_resin", "kevlar_layered" ],
     "armor": [ {
-        "covers": [ "eyes", "mouth" ],
-        "coverage": 100,
-        "encumbrance": 10,
-        "material": [
-          { "type": "thermo_resin", "covered_by_mat": 100, "thickness": 2 }
-        ]
-      }
-    ]
-  },
-  { "id": "delta_hazard_helmet", "type": "ARMOR",
-    "name": { "str": "delta hazard helmet" }, "category": "armor",
-    "description": "Fully enclosed protective helmet.",
-    "material": [ "plastic", "plastic_pad" ],
-    "symbol": "[", "color": "yellow", "volume": "1000 ml", "weight": "500 g",
-    "warmth": 10, "environmental_protection": 20,
-    "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ],
-    "armor": [ {
+        "coverage": 100, "encumbrance": 10,
         "covers": [ "head" ],
-        "coverage": 100,
-        "encumbrance": 10,
         "material": [
-          { "type": "thermo_resin", "covered_by_mat": 100, "thickness": 1 },
+          { "type": "thermo_resin",   "covered_by_mat": 100, "thickness": 1 },
           { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
         ]
       }
-    ]
-  }
+    ],
+    "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF",
+               "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ]
+  },
+  { "type":     "ARMOR",  "id": "ethr_hev_armor_mask",
+    "category": "armor",  "name": { "str": "ETHR HEV Mask" },
+    "description": "Hard armored face mask used by the ETHR engineering corps. Includes advanced anti-glare lenses and self-cleaning air filters.",
+    "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 20,
+    "volume": "200 ml", "weight": "100 g", "material": [ "thermo_resin" ],
+    "armor": [ {
+        "coverage": 100, "encumbrance": 10,
+        "covers": [ "eyes", "mouth" ],
+        "material": [
+          { "type": "thermo_resin",   "covered_by_mat": 100, "thickness": 2 }
+        ]
+      }
+    ],
+    "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF",
+               "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE",
+               "SUN_GLASSES", "SWIM_GOGGLES" ]
+  },
+  { "id": "delta_hazard_suit",   "type": "ARMOR", "copy-from": "ethr_hev_armor_under"  },
+  { "id": "delta_hazard_mask",   "type": "ARMOR", "copy-from": "ethr_hev_armor_mask"   },
+  { "id": "delta_hazard_helmet", "type": "ARMOR", "copy-from": "ethr_hev_armor_helmet" }
 ]
