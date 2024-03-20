@@ -8,9 +8,9 @@
         "coverage": 100, "encumbrance": 8,
         "covers": [ "head", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
         "material": [
-          { "type": "nylon",  "covered_by_mat": 100, "thickness": 2.0  },
-          { "type": "kevlar", "covered_by_mat": 100, "thickness": 1.0  },
-          { "type": "lycra",  "covered_by_mat": 100, "thickness": 0.25 }
+          { "type": "nylon",  "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "kevlar", "covered_by_mat": 100, "thickness": 1.0 },
+          { "type": "lycra",  "covered_by_mat": 100, "thickness": 0.3 }
         ]
       }
     ],
@@ -18,7 +18,7 @@
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ]
   },
   { "type":     "ARMOR", "id": "ethr_hev_armor_helmet",
-    "category": "armor", "name": { "str": "ETHR HEV Mask" },
+    "category": "armor", "name": { "str": "ETHR HEV Helmet" },
     "description": "Protective helmet meant to be worn in combination with the ETHR HEV Mask.",
     "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 20,
     "volume": "1200 ml", "weight": "500 g", "material": [ "thermo_resin", "kevlar_layered" ],
@@ -26,7 +26,7 @@
         "coverage": 100, "encumbrance": 10,
         "covers": [ "head" ],
         "material": [
-          { "type": "thermo_resin",   "covered_by_mat": 100, "thickness": 1 },
+          { "type": "thermo_resin",   "covered_by_mat": 100, "thickness": 1.0 },
           { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
         ]
       }
@@ -43,15 +43,12 @@
         "coverage": 100, "encumbrance": 10,
         "covers": [ "eyes", "mouth" ],
         "material": [
-          { "type": "thermo_resin",   "covered_by_mat": 100, "thickness": 2 }
+          { "type": "thermo_resin", "covered_by_mat": 100, "thickness": 2.0 }
         ]
       }
     ],
     "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF",
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE",
                "SUN_GLASSES", "SWIM_GOGGLES" ]
-  },
-  { "id": "delta_hazard_suit",   "type": "ARMOR", "copy-from": "ethr_hev_armor_under"  },
-  { "id": "delta_hazard_mask",   "type": "ARMOR", "copy-from": "ethr_hev_armor_mask"   },
-  { "id": "delta_hazard_helmet", "type": "ARMOR", "copy-from": "ethr_hev_armor_helmet" }
+  }
 ]

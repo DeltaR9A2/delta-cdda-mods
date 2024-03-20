@@ -1,0 +1,71 @@
+[
+  {
+    "type": "proficiency",
+    "id": "prof_orbital_mechanic",
+    "category": "prof_mechanic",
+    "name": { "str": "Orbital Infrastructure" },
+    "description": "You know how to repair and maintain orbital infrastructure such as satellites and space stations.",
+    "can_learn": false
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_starship_mechanic",
+    "category": "prof_mechanic",
+    "name": { "str": "Starship Mechanic" },
+    "description": "You know how to repair and maintain spacefaring vehicles.",
+    "can_learn": false
+  },
+  {
+    "type": "profession",
+    "id": "delta_hazard_engineer",
+    "name": "Hazard Engineer",
+    "description": "You are a hazard engineer, trained for the recovery, salvage, or demolition of infested starships. Pulled across space and time, your experience handling alien infestations in space seems surprisingly relevant in this strange new world.",
+    "points": 0,
+    "items": {
+      "both": {
+        "items": [
+          "ethr_hev_armor_under",
+          "ethr_hev_armor_mask",
+          "ethr_hev_armor_helmet",
+          "chestguard_hard",
+          "legguard_hard",
+          "armguard_hard",
+          "boots_combat",
+          "gloves_work",
+          "tool_belt",
+          "ethr_multitool",
+          "ethr_demotool"
+        ]
+      }
+    },
+    "skills": [
+      { "level": 4, "name": "mechanics" },
+
+      { "level": 3, "name": "fabrication" },
+      { "level": 3, "name": "electronics" },
+      { "level": 3, "name": "computer" },
+      { "level": 3, "name": "traps" },
+
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "dodge" },
+
+      { "level": 1, "name": "firstaid" }
+    ],
+    "proficiencies": [
+      "prof_elec_circuits",
+      "prof_plumbing",
+      "prof_welding",
+      "prof_toolsmithing",
+      "prof_elec_soldering",
+      "prof_spotting",
+      "prof_disarming",
+      "prof_wp_zombie",
+      "prof_wp_cyborg",
+      "prof_wp_basic_bug",
+      "prof_batons_familiar",
+      "prof_orbital_mechanic",
+      "prof_starship_mechanic"
+    ]
+  }
+]
