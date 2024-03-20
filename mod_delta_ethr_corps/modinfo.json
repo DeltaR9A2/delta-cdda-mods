@@ -1,11 +1,11 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "delta_misc",
-    "name": "Delta Misc",
+    "id": "delta_ethr_corps",
+    "name": "ETHR Corps",
     "authors": [ "DeltaR9A2" ],
     "maintainers": [ "DeltaR9A2" ],
-    "description": "Misc changes and experiments.",
+    "description": "The Extra Terrestrial Hazard Removal Corps.",
     "category": "misc_additions",
     "dependencies": [ "dda" ]
   }
