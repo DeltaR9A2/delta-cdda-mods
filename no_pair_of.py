@@ -45,9 +45,6 @@ for jfn in JSON_FILENAMES:
   with open( jfn, encoding='utf-8' ) as jfp:
     try:
       json_data = json.load( jfp )
-    except UnicodeDecodeError as ex :
-      print( "Unicode error in: {}".format( jfn ), file=sys.stderr )
-      print( ex, file=sys.stderr )
     except json.JSONDecodeError as ex :
       print( "Invalid JSON file: {}".format( jfn ), file=sys.stderr )
       print( ex, file=sys.stderr )
