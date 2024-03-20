@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import sys
 import json
 import argparse
 
@@ -41,11 +42,15 @@ def check_record( x ):
 RECORDS_TO_RENAME = []
 
 for jfn in JSON_FILENAMES:
-  with open( jfn, 'r' ) as jfp:
+  with open( jfn, encoding='utf-8' ) as jfp:
     try:
-      json_data = json.load( open( jfn, 'r' ) )
-    except JSONDecodeError :
-      print( "Invalid JSON file: {}".format( jfn ) )
+      json_data = json.load( jfp )
+    except UnicodeDecodeError as ex :
+      print( "Unicode error in: {}".format( jfn ), file=sys.stderr )
+      print( ex, file=sys.stderr )
+    except json.JSONDecodeError as ex :
+      print( "Invalid JSON file: {}".format( jfn ), file=sys.stderr )
+      print( ex, file=sys.stderr )
       continue
 
     if type( json_data ) is dict:
