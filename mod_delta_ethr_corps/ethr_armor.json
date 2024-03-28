@@ -1,6 +1,6 @@
 [
   { "type":     "ARMOR",  "id": "ethr_hev_armor_under",
-    "category": "armor",  "name": { "str": "ETHR HEV Underlayer" },
+    "category": "armor",  "name": { "str": "Δ ETHR HEV Underlayer" },
     "description": "Full body protective suit used by the ETHR engineering corps. This form-fitting suit is meant to be worn under a more robust system of rigid armor plates.",
     "symbol": "[", "color": "dark_gray", "warmth": 10, "environmental_protection": 10,
     "volume": "2000 ml", "weight": "1000 g", "material": [ "nylon", "kevlar", "lycra" ],
@@ -18,7 +18,7 @@
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ]
   },
   { "type":     "ARMOR", "id": "ethr_hev_armor_helmet",
-    "category": "armor", "name": { "str": "ETHR HEV Helmet" },
+    "category": "armor", "name": { "str": "Δ ETHR HEV Helmet" },
     "description": "Protective helmet meant to be worn in combination with the ETHR HEV Mask.",
     "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 20,
     "volume": "1200 ml", "weight": "500 g", "material": [ "thermo_resin", "kevlar_layered" ],
@@ -35,8 +35,8 @@
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ]
   },
   { "type":     "ARMOR",  "id": "ethr_hev_armor_mask",
-    "category": "armor",  "name": { "str": "ETHR HEV Mask" },
-    "description": "Hard armored face mask used by the ETHR engineering corps. Includes advanced anti-glare lenses and self-cleaning air filters.",
+    "category": "armor",  "name": { "str": "Δ ETHR HEV Mask" },
+    "description": "Hard armored face mask used by the ETHR engineering corps. Includes adaptive anti-glare lenses and self-cleaning air filters.",
     "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 20,
     "volume": "200 ml", "weight": "100 g", "material": [ "thermo_resin" ],
     "armor": [ {
@@ -47,8 +47,9 @@
         ]
       }
     ],
+    "qualities": [ [ "GLARE", 1 ] ],
     "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF",
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE",
-               "SUN_GLASSES", "SWIM_GOGGLES" ]
+               "SUN_GLASSES", "FLASH_PROTECTION", "SWIM_GOGGLES" ]
   }
 ]

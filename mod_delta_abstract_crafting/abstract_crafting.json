@@ -58,7 +58,7 @@
     "id": "abstract_rod",
     "name": { "str": "abstract rod" },
     "copy-from": "abstract_component", "type": "AMMO",
-    "description": "The concept of rigid object about four feet long and two inches thick."
+    "description": "The concept of cylinder about four feet long and two inches thick."
   },  {
     "id": "abstract_pole",
     "name": { "str": "abstract pole" },
@@ -68,7 +68,7 @@
     "id": "abstract_cord",
     "name": { "str": "abstract cord" },
     "copy-from": "abstract_component", "type": "AMMO",
-    "description": "The concept of a thin rope, flexible and about three feet long."
+    "description": "The concept of a thin cord, cable, or rope, that is flexible and about three feet long."
   },
 
   {
@@ -109,7 +109,7 @@
     "id": "abstract_cutting",
     "name": { "str": "threat of laceration" },
     "copy-from": "abstract_component", "type": "AMMO",
-    "description": "Slashing, cutting, and chopping; a thin edge intersects the whole, dividing it into parts."
+    "description": "Slashing, cutting, and chopping; a sharp edge intersects the whole, dividing it into parts."
   }, {
     "id": "abstract_bashing",
     "name": { "str": "threat of demolition" },
@@ -223,14 +223,14 @@
   { "result": "heavy_crowbar", "components": [ [ ["crowbar", 1] ], [ ["abstract_bashing", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_tool_t2" },
 
   { "abstract": "abstract_armor", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_ARMOR", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 3 },
-  { "result": "delta_hazard_suit", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_armor" },
-  { "result": "delta_hazard_mask", "components": [ [ [ "abstract_trash",  60 ], ["abstract_part",  6 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_armor" },
+  { "result": "ethr_hev_armor_under", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_armor" },
+  { "result": "ethr_hev_armor_mask", "components": [ [ [ "abstract_trash",  30 ], ["abstract_part",  3 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_armor" },
+  { "result": "ethr_hev_armor_helmet", "components": [ [ [ "abstract_trash",  60 ], ["abstract_part",  6 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_armor" },
 
   { "abstract": "abstract_weapon", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_WEAPON", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 3 },
   { "result": "mossberg_500", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
   { "result": "modular_m4_carbine", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
   { "result": "fn_p90", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
-  { "result": "modular_m4_carbine", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
   { "result": "fn57", "components": [ [ [ "abstract_trash", 100 ], ["abstract_part", 10 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
 
   { "result": "spear_steel", "components": [ [ [ "abstract_pole", 1 ] ], [ ["abstract_piercing", 1 ] ], [ ["raw_thought_t2", 1] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_weapon" },
@@ -240,7 +240,8 @@
   { "result": "stanag30", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 3 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
   { "result": "m1911mag", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 1 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
   { "result": "m1911bigmag", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 2 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
-  { "result": "fnp90mag", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 2 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
+  { "result": "fn57mag", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 1 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
+  { "result": "fnp90mag", "components": [ [ [ "abstract_trash", 30 ], ["abstract_part", 3 ] ] ], "id_suffix": "abstract", "type": "recipe", "copy-from": "abstract_magazine" },
 
   { "abstract": "abstract_ammo", "category": "CC_ABSTRACT", "subcategory": "CSC_ABSTRACT_AMMO", "type": "recipe", "copy-from": "abstract_recipe", "difficulty": 2 },
   { "result": "45_acp", "charges": 5, "components": [ [ ["abstract_trash", 10], [ "abstract_part", 1 ] ] ], "type": "recipe", "id_suffix": "abstract", "copy-from": "abstract_ammo" },
