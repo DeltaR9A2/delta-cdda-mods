@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "delta_virtual_crafting",
+    "name": "Virtual Crafting",
+    "authors": [ "DeltaR9A2" ],
+    "maintainers": [ "DeltaR9A2" ],
+    "description": "Crafting in the style of Minecraft, Terraria, etc..",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

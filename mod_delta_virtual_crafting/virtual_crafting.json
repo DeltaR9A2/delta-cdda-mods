@@ -17,7 +17,7 @@
   },
   {
     "abstract": "virtual_component",
-    "name": { "str": "_abstract_component_" },
+    "name": { "str": "_virtual_component_" },
     "type": "AMMO",
     "category": "spare_parts",
     "weight": "1 g",
