@@ -51,5 +51,21 @@
     "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF",
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE",
                "SUN_GLASSES", "FLASH_PROTECTION", "SWIM_GOGGLES" ]
+  },
+  { "type":     "ARMOR",  "id": "ethr_hev_armor_light",
+    "category": "armor",  "name": { "str": "Δ ETHR HEV Light Armor" },
+    "description": "Full body protective suit used by the ETHR engineering corps. This form-fitting suit is meant to be worn under a more robust system of rigid armor plates.",
+    "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 10,
+    "volume": "2000 ml", "weight": "1000 g", "material": [ "thermo_resin", "kevlar_layered" ],
+    "armor": [ {
+        "coverage": 100, "encumbrance": 4,
+        "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+        "material": [
+          { "type": "thermo_resin",  "covered_by_mat": 95, "thickness": 1.0 },
+          { "type": "kevlar_layered", "covered_by_mat": 95, "thickness": 2.0 }
+        ]
+      }
+    ],
+    "flags": [ "VARSIZE", "STURDY", "OUTER" ]
   }
 ]

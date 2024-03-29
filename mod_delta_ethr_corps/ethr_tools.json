@@ -4,12 +4,12 @@
     "type": "TOOL",
     "name": { "str": "ETHR multitool" },
     "description": "A configurable multitool about the size of a bulky pistol. It bears a symbol of a ratchet and wrench crossed in front of a lit blowtorch. Below the symbol are four block letters 'ETHR'.",
-    "symbol": ";", "color": "light_gray", "longest_side": "20 cm",
-    "material": [ "steel" ], "weight": "1200 g", "volume": "200 ml",
+    "symbol": ";", "color": "yellow", "longest_side": "20 cm", "looks_like": "multitool",
+    "material": [ "steel" ], "weight": "1000 g", "volume": "400 ml", "longest_side": "18 cm",
     "price": 50000, "price_postapoc": 2000,
     "to_hit": { "grip": "solid", "length": "hand", "surface": "any", "balance": "uneven" },
     "melee_damage": { "bash": 12, "stab": 2 },
-    "flags": [ "DURABLE_MELEE", "ALLOWS_BODY_BLOCK" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "ALLOWS_BODY_BLOCK" ],
     "qualities": [
       [ "CUT",         2 ], [ "CUT_FINE",    2 ],
       [ "SCREW",       1 ], [ "SCREW_FINE",  1 ],
@@ -18,7 +18,8 @@
       [ "SAW_M",       1 ], [ "SAW_M_FINE",  1 ],
       [ "FILE",        2 ], [ "FINE_GRIND",  1 ],
       [ "CHISEL",      3 ], [ "CHISEL_WOOD", 3 ],
-      [ "SAW_W",       1 ], [ "WHEEL_FAST",  1 ]
+      [ "SAW_W",       1 ], [ "WHEEL_FAST",  1 ],
+      [ "LOCKPICK",    3 ]
     ]
   },
   {
@@ -26,16 +27,18 @@
     "type": "TOOL",
     "name": { "str": "ETHR demo tool" },
     "description": "A multi-purpose tool for demolition work; something like a combination of a hatchet, a crowbar, and a hacksaw. It bears a symbol of a ratchet and wrench crossed in front of a lit blowtorch. Below the symbol are four block letters 'ETHR'.",
-    "symbol": "F", "color": "yellow", "longest_side": "45 cm",
-    "material": [ "steel" ], "weight": "2000 g", "volume": "1000 ml",
+    "symbol": "F", "color": "yellow", "longest_side": "45 cm", "looks_like": "halligan",
+    "material": [ "steel" ], "weight": "2000 g", "volume": "500 ml", "longest_side": "50 cm",
     "price": 50000, "price_postapoc": 2000,
     "to_hit": { "grip": "solid", "length": "short", "surface": "any", "balance": "neutral" },
     "melee_damage": { "bash": 20, "stab": 8 },
-    "flags": [ "DURABLE_MELEE", "ALLOWS_BODY_BLOCK" ],
+    "techniques": [ "WBLOCK_1", "SWEEP" ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
     "qualities": [
       [ "CUT",         2 ], [ "HAMMER",      3 ],
       [ "SAW_M",       2 ], [ "SAW_W",       2 ],
       [ "PRY",         3 ], [ "PRYING_NAIL", 1 ]
     ]
   }
+  
 ]
