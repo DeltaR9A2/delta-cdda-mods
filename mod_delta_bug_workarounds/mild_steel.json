@@ -1,0 +1,13 @@
+[
+  { "abstract": "bug_workaround_recipe", "type": "recipe", 
+    "category": "CC_OTHER", "subcategory": "CSC_OTHER_MATERIALS", 
+    "reversible": false, "autolearn": true, 
+    "skill_used": "fabrication", "difficulty": 0,
+	"activity_level": "NO_EXERCISE", "time": "1 s" },
+
+  { "result": "steel_chunk", "id_suffix": "_bug_workaround", "type": "recipe", "copy-from": "bug_workaround_recipe",
+		"components": [ [ [ "lc_steel_chunk", 1 ] ] ] },
+  
+  { "result": "steel_lump", "id_suffix": "_bug_workaround", "type": "recipe", "copy-from": "bug_workaround_recipe",
+		"components": [ [ [ "lc_steel_lump", 1 ] ] ] }
+]	
