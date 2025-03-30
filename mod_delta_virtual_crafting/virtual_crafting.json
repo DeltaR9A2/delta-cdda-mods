@@ -32,12 +32,12 @@
     "id": "v_item_block_of_wood",
     "name": { "str": "v.item.block_of_wood" },
     "copy-from": "virtual_component", "type": "AMMO",
-    "description": "A cube of solid wood, exactly a half meter in each dimension. Somehow it is nearly weightless while carrying it."
+    "description": "A cube of solid wood, exactly a half meter in each dimension. Somehow it is nearly weightless while carrying it, and it shrinks down to a cubic centimeter when forced into any container."
   }, {
     "id": "v_item_plank",
     "name": { "str": "v.item.plank" },
     "copy-from": "virtual_component", "type": "AMMO",
-    "description": "A pixelated wooden plank... or is it several? It's hard to tell, but it can be used for crafting virtual items regardless."
+    "description": "A pixelated wooden plank... or is it a stack of several planks? It's hard to tell, but it can be used for crafting virtual items regardless."
   }, {
     "id": "v_item_stick",
     "name": { "str": "v.item.stick" },

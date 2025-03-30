@@ -1,16 +1,16 @@
 [
   { "type":     "ARMOR",  "id": "ethr_hev_armor_under",
-    "category": "armor",  "name": { "str": "Δ ETHR HEV Underlayer" },
+    "category": "armor",  "name": { "str": "ETHR HEV Underlayer" },
     "description": "Full body protective suit used by the ETHR engineering corps. This form-fitting suit is meant to be worn under a more robust system of rigid armor plates.",
     "symbol": "[", "color": "dark_gray", "warmth": 10, "environmental_protection": 10,
-    "volume": "2000 ml", "weight": "1000 g", "material": [ "nylon", "kevlar", "lycra" ],
+    "volume": "2000 ml", "weight": "1000 g", "material": [ "nylon", "lycra", "cotton" ],
     "armor": [ {
         "coverage": 100, "encumbrance": 8,
         "covers": [ "head", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
         "material": [
-          { "type": "nylon",  "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "nylon",  "covered_by_mat": 100, "thickness": 1.5 },
           { "type": "kevlar", "covered_by_mat": 100, "thickness": 1.0 },
-          { "type": "lycra",  "covered_by_mat": 100, "thickness": 0.3 }
+          { "type": "lycra",  "covered_by_mat": 100, "thickness": 0.8 }
         ]
       }
     ],
@@ -18,16 +18,16 @@
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ]
   },
   { "type":     "ARMOR", "id": "ethr_hev_armor_helmet",
-    "category": "armor", "name": { "str": "Δ ETHR HEV Helmet" },
+    "category": "armor", "name": { "str": "ETHR HEV Helmet" },
     "description": "Protective helmet meant to be worn in combination with the ETHR HEV Mask.",
     "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 20,
-    "volume": "1200 ml", "weight": "500 g", "material": [ "thermo_resin", "kevlar_layered" ],
+    "volume": "1200 ml", "weight": "500 g", "material": [ "ceramic", "nomex" ],
     "armor": [ {
         "coverage": 100, "encumbrance": 10,
         "covers": [ "head" ],
         "material": [
-          { "type": "thermo_resin",   "covered_by_mat": 100, "thickness": 1.0 },
-          { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
+          { "type": "ceramic", "covered_by_mat": 100, "thickness": 10.0 },
+          { "type": "nomex", "covered_by_mat": 100, "thickness": 8.0 }
         ]
       }
     ],
@@ -35,15 +35,16 @@
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ]
   },
   { "type":     "ARMOR",  "id": "ethr_hev_armor_mask",
-    "category": "armor",  "name": { "str": "Δ ETHR HEV Mask" },
+    "category": "armor",  "name": { "str": "ETHR HEV Mask" },
     "description": "Hard armored face mask used by the ETHR engineering corps. Includes adaptive anti-glare lenses and self-cleaning air filters.",
     "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 20,
-    "volume": "200 ml", "weight": "100 g", "material": [ "thermo_resin" ],
+    "volume": "200 ml", "weight": "100 g", "material": [ "ceramic","nomex" ],
     "armor": [ {
         "coverage": 100, "encumbrance": 10,
         "covers": [ "eyes", "mouth" ],
         "material": [
-          { "type": "thermo_resin", "covered_by_mat": 100, "thickness": 2.0 }
+          { "type": "ceramic", "covered_by_mat": 100, "thickness": 10.0 },
+          { "type": "nomex", "covered_by_mat": 100, "thickness": 8.0 }
         ]
       }
     ],
@@ -53,16 +54,17 @@
                "SUN_GLASSES", "FLASH_PROTECTION", "SWIM_GOGGLES" ]
   },
   { "type":     "ARMOR",  "id": "ethr_hev_armor_light",
-    "category": "armor",  "name": { "str": "Δ ETHR HEV Light Armor" },
-    "description": "Full body hard armor used by the ETHR engineering corps. Designed to be worn over a form-fitting environmental suit.",
+    "category": "armor",  "name": { "str": "ETHR HEV Light Armor" },
+    "description": "Full body hard armor used by the ETHR engineering corps. It's a system of fire resistant armor plates secured by adjustable nylon straps.",
     "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 10,
-    "volume": "2000 ml", "weight": "1000 g", "material": [ "thermo_resin", "kevlar_layered" ],
+    "volume": "2000 ml", "weight": "1000 g", "material": [ "ceramic", "nomex", "nylon" ],
     "armor": [ {
-        "coverage": 95, "encumbrance": 4,
+        "coverage": 90, "encumbrance": 4,
         "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
         "material": [
-          { "type": "thermo_resin",  "covered_by_mat": 100, "thickness": 1.0 },
-          { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
+          { "type": "ceramic",  "covered_by_mat": 100, "thickness": 5.0 },
+          { "type": "nomex", "covered_by_mat": 100, "thickness": 8.0 },
+          { "type": "nylon", "covered_by_mat": 10, "thickness": 2.0 }
         ]
       }
     ],
