@@ -1,7 +1,7 @@
 [
   {
     "id": "ethr_multitool",
-    "type": "TOOL",
+    "type": "ITEM", "subtypes": [ "TOOL" ],
     "name": { "str": "ETHR multitool" },
     "description": "A configurable multitool about the size of a bulky pistol. It bears a symbol of a ratchet and wrench crossed in front of a lit blowtorch. Below the symbol are four block letters 'ETHR'.",
     "symbol": ";", "color": "yellow", "looks_like": "multitool", "material": [ "carbide", "steel", "carbonfiber" ], 
@@ -24,7 +24,7 @@
   },
   {
     "id": "ethr_demotool",
-    "type": "TOOL",
+    "type": "ITEM", "subtypes": [ "TOOL" ],
     "name": { "str": "ETHR demo tool" },
     "description": "A multi-purpose tool for demolition work; something like a combination of a hatchet, a crowbar, and a hacksaw. It bears a symbol of a ratchet and wrench crossed in front of a lit blowtorch. Below the symbol are four block letters 'ETHR'.",
     "symbol": "F", "color": "yellow", "looks_like": "halligan", "material": [ "carbide", "steel", "carbonfiber" ], 
@@ -43,7 +43,7 @@
   },
   {
     "id": "ethr_breaching_hammer",
-    "type": "TOOL",
+    "type": "ITEM", "subtypes": [ "TOOL" ],
     "name": { "str": "ETHR breaching hammer" },
     "description": "A sledgehammer made from advanced materials, intended for breaching starship hatches and airlocks. Its optimized design makes it somewhat more suitable as a weapon, but it's still exhausting to weild.",
     "symbol": "/", "color": "brown", "looks_like": "hammer_sledge", "material": [ "carbide", "steel", "carbonfiber" ],

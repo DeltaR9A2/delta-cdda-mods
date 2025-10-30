@@ -1,6 +1,6 @@
 [
-  { "type":     "ARMOR",  "id": "ethr_hev_armor_under",
-    "category": "armor",  "name": { "str": "ETHR HEV Underlayer" },
+  { "id": "ethr_hev_armor_under", "name": { "str": "ETHR HEV Underlayer" },
+    "type":     "ITEM",  "subtypes": [ "ARMOR" ], "category": "armor",
     "description": "Full body protective suit used by the ETHR engineering corps. This form-fitting suit is meant to be worn under a more robust system of rigid armor plates.",
     "symbol": "[", "color": "dark_gray", "warmth": 10, "environmental_protection": 10,
     "volume": "2000 ml", "weight": "1000 g", "material": [ "nylon", "lycra", "cotton" ],
@@ -17,8 +17,8 @@
     "flags": [ "VARSIZE", "SKINTIGHT", "STURDY", "WATERPROOF",
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ]
   },
-  { "type":     "ARMOR", "id": "ethr_hev_armor_helmet",
-    "category": "armor", "name": { "str": "ETHR HEV Helmet" },
+  { "id": "ethr_hev_armor_helmet", "name": { "str": "ETHR HEV Helmet" },
+    "type":     "ITEM",  "subtypes": [ "ARMOR" ], "category": "armor",
     "description": "Protective helmet meant to be worn in combination with the ETHR HEV Mask.",
     "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 20,
     "volume": "1200 ml", "weight": "500 g", "material": [ "ceramic", "nomex" ],
@@ -34,8 +34,8 @@
     "flags": [ "VARSIZE", "OUTER", "STURDY", "PADDED", "WATERPROOF",
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE" ]
   },
-  { "type":     "ARMOR",  "id": "ethr_hev_armor_mask",
-    "category": "armor",  "name": { "str": "ETHR HEV Mask" },
+  { "id": "ethr_hev_armor_mask", "name": { "str": "ETHR HEV Mask" },
+    "type":     "ITEM",  "subtypes": [ "ARMOR" ], "category": "armor",
     "description": "Hard armored face mask used by the ETHR engineering corps. Includes adaptive anti-glare lenses and self-cleaning air filters.",
     "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 20,
     "volume": "200 ml", "weight": "100 g", "material": [ "ceramic","nomex" ],
@@ -53,8 +53,8 @@
                "RAINPROOF", "GAS_PROOF", "ELECTRIC_IMMUNE",
                "SUN_GLASSES", "FLASH_PROTECTION", "SWIM_GOGGLES" ]
   },
-  { "type":     "ARMOR",  "id": "ethr_hev_armor_light",
-    "category": "armor",  "name": { "str": "ETHR HEV Light Armor" },
+  { "id": "ethr_hev_armor_light", "name": { "str": "ETHR HEV Light Armor" },
+    "type":     "ITEM",  "subtypes": [ "ARMOR" ], "category": "armor",
     "description": "Full body hard armor used by the ETHR engineering corps. It's a system of fire resistant armor plates secured by adjustable nylon straps.",
     "symbol": "[", "color": "yellow", "warmth": 10, "environmental_protection": 10,
     "volume": "2000 ml", "weight": "1000 g", "material": [ "ceramic", "nomex", "nylon" ],
