@@ -1,0 +1,33 @@
+[
+
+{ "type": "vehicle_part", "abstract": "radioisotope_thermoelectric_generator",
+  "categories": [ "energy" ], "location": "center",
+  "flags": [ "OBSTACLE", "RADIOACTIVE", "COVERED", "PERPETUAL", "REACTOR" ],
+  "color": "green_white", "broken_color": "blue",
+  "variants": [ { "symbols": "0", "symbols_broken": "#" } ],
+  "damage_modifier": 80, "durability": 400, "damage_reduction": { "all": 58 },
+  "requirements": { 
+    "repair":  { "skills": [ [ "mechanics", 5 ] ], "time":  "25 m", "using": [ [ "repair_welding_standard", 4 ], [ "soldering_standard", 5 ] ] }, 
+    "install": { "skills": [ [ "mechanics", 0 ] ], "time": "200 s", "using": "vehicle_screw" },
+    "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "200 s", "using": "vehicle_screw" } 
+  }
+},
+
+{ "type": "vehicle_part", "copy-from": "radioisotope_thermoelectric_generator",
+  "id": "snap_3b_arg", "item": "snap_3b_arg", 
+  "name": { "str": "SNAP-3b ARG" }, "description": "A very low power ARG generating only 3W, but it will run for years.",
+  "epower": "3 W",
+
+  "breaks_into": [ { "item": "scrap", "count": [ 1, 6 ] },
+                   { "item": "steel_chunk", "count": [ 0, 1 ] },
+                   { "item": "plutonium", "count": [ 0, 1 ] },
+                   { "item": "lead", "charges": [ 2, 12 ] } ]
+},
+
+{ "type": "GENERIC", "id": "snap_3b_arg", "category": "other", 
+  "name": { "str": "SNAP-3b ARG" }, "description": "A very low power ARG generating only 3W, but it will run for years.",
+  "material": [ "lead", "steel" ], "weight": "2 kg", "longest_side": "14 cm", "volume": "2 L",
+  "symbol": "0", "color": "green_white", "flags": [ "NO_SALVAGE" ] 
+}
+
+]
