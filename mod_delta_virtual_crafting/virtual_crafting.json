@@ -18,7 +18,7 @@
   {
     "abstract": "virtual_component",
     "name": { "str": "_virtual_component_" },
-    "type": "AMMO",
+    "type": "ITEM",
     "category": "spare_parts",
     "weight": "1 g",
     "volume": "1 ml",
@@ -26,27 +26,26 @@
     "price_postapoc": "0 USD",
     "material": [ "monolith" ],
     "symbol": "?",
-    "color": "dark_gray",
-    "ammo_type": "components"
+    "color": "dark_gray"
   }, {
     "id": "v_item_block_of_wood",
     "name": { "str": "v.item.block_of_wood" },
-    "copy-from": "virtual_component", "type": "AMMO",
+    "copy-from": "virtual_component", "type": "ITEM",
     "description": "A cube of solid wood, exactly a half meter in each dimension. Somehow it is nearly weightless while carrying it, and it shrinks down to a cubic centimeter when forced into any container."
   }, {
     "id": "v_item_plank",
     "name": { "str": "v.item.plank" },
-    "copy-from": "virtual_component", "type": "AMMO",
+    "copy-from": "virtual_component", "type": "ITEM",
     "description": "A pixelated wooden plank... or is it a stack of several planks? It's hard to tell, but it can be used for crafting virtual items regardless."
   }, {
     "id": "v_item_stick",
     "name": { "str": "v.item.stick" },
-    "copy-from": "virtual_component", "type": "AMMO",
+    "copy-from": "virtual_component", "type": "ITEM",
     "description": "A pixelated wooden stick. It can be used for crafting virtual items."
   }, {
     "id": "v_tool_wooden_pickaxe",
     "name": { "str": "v.tool.wooden_pickaxe" },
-    "copy-from": "pickaxe", "type": "TOOL",
+    "copy-from": "pickaxe", "type": "ITEM", "subtypes": ["TOOL"],
     "description": "A pixelated pickaxe with a head made out of wood. Somehow it works as well as a real pickaxe."
   },
   { "type": "recipe", "abstract": "virtual_recipe", "skill_used": "conversion", "time": "5 s", "activity_level": "NO_EXERCISE", "category": "CC_OTHER", "subcategory": "CSC_OTHER_MATERIALS", "reversible": false, "autolearn": true },

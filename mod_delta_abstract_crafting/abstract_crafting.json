@@ -24,7 +24,7 @@
   {
     "abstract": "abstract_component",
     "name": { "str": "_abstract_component_" },
-    "type": "AMMO",
+    "type": "ITEM",
     "category": "spare_parts",
     "weight": "1 g",
     "volume": "1 ml",
@@ -32,93 +32,92 @@
     "price_postapoc": "0 USD",
     "material": [ "monolith" ],
     "symbol": "?",
-    "color": "dark_gray",
-    "ammo_type": "components"
+    "color": "dark_gray"
   }, {
     "id": "abstract_trash",
     "name": { "str": "abstract trash" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "A combination of otherwise useless trash abstracted into a superpositive state, this spark of potential can bind other ideas together."
   }, {
     "id": "abstract_scrap",
     "name": { "str": "abstract scrap" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "A combination of scrap materials abstracted into a superpositive state, this bundle of ideas adds weight to less tangible concepts."
   }, {
     "id": "abstract_part",
     "name": { "str": "abstract part" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "The idea of a crafting component, so vague that it could be nearly anything."
   }, {
     "id": "abstract_chunk",
     "name": { "str": "abstract chunk" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "The concept of a heavy object about the size of a human fist."
   }, {
     "id": "abstract_rod",
     "name": { "str": "abstract rod" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "The concept of cylinder about four feet long and two inches thick."
   },  {
     "id": "abstract_pole",
     "name": { "str": "abstract pole" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "The concept of a long cylinder about ten feet long and two inches thick."
   }, {
     "id": "abstract_cord",
     "name": { "str": "abstract cord" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "The concept of a thin cord, cable, or rope, that is flexible and about three feet long."
   },
 
   {
     "id": "raw_thought_t1",
     "name": { "str": "spark of potential" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "Spark of Potential"
   }, {
     "id": "raw_thought_t2",
     "name": { "str": "spark of creativity" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "Spark of Creativity"
   }, {
     "id": "raw_thought_t3",
     "name": { "str": "spark of inspiration" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "Spark of Inspiration"
   },
 
   {
     "id": "abstract_utility",
     "name": { "str": "essence of utility" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "The concept of utility."
   }, {
     "id": "abstract_versatility",
     "name": { "str": "essence of versatility" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "The concept versatility."
   }, {
     "id": "abstract_durability",
     "name": { "str": "essence of durability" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "The concept of durability."
   },
 
   {
     "id": "abstract_cutting",
     "name": { "str": "threat of laceration" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "Slashing, cutting, and chopping; a sharp edge intersects the whole, dividing it into parts."
   }, {
     "id": "abstract_bashing",
     "name": { "str": "threat of demolition" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "Pounding, hammering, and pulverizing; a blunt instrument strikes the whole, shattering it to pieces."
   }, {
     "id": "abstract_piercing",
     "name": { "str": "threat of perforation" },
-    "copy-from": "abstract_component", "type": "AMMO",
+    "copy-from": "abstract_component", "type": "ITEM",
     "description": "Piercing, stabbing, and impaling; a sharp point penetrates the whole, damaging internal structures."
   },
 
