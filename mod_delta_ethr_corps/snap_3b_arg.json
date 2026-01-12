@@ -24,7 +24,7 @@
                    { "item": "lead", "charges": [ 2, 12 ] } ]
 },
 
-{ "type": "GENERIC", "id": "snap_3b_arg", "category": "other", 
+{ "type": "ITEM", "id": "snap_3b_arg", "category": "other", 
   "name": { "str": "SNAP-3b ARG" }, "description": "A very low power ARG generating only 3W, but it will run for years.",
   "material": [ "lead", "steel" ], "weight": "2 kg", "longest_side": "14 cm", "volume": "2 L",
   "symbol": "0", "color": "green_white", "flags": [ "NO_SALVAGE" ] 
